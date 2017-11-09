@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A410A6D81FB3C817003B75D7 /* BluetoothConnectorObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = A410A6D71FB3C817003B75D7 /* BluetoothConnectorObjC.m */; };
+		A410A6DF1FB3CE06003B75D7 /* TDTempoDisc.m in Sources */ = {isa = PBXBuildFile; fileRef = A410A6DE1FB3CE06003B75D7 /* TDTempoDisc.m */; };
+		A4AB210C1FB3F32C00D0129A /* ServerConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AB210B1FB3F32C00D0129A /* ServerConnector.swift */; };
+		A4D9E0C51FAC154900B7989D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9E0C41FAC154900B7989D /* AppDelegate.swift */; };
+		A4D9E0C71FAC154900B7989D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9E0C61FAC154900B7989D /* ViewController.swift */; };
+		A4D9E0CA1FAC154900B7989D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D9E0C81FAC154900B7989D /* Main.storyboard */; };
+		A4D9E0CC1FAC154900B7989D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D9E0CB1FAC154900B7989D /* Assets.xcassets */; };
+		A4D9E0CF1FAC154900B7989D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D9E0CD1FAC154900B7989D /* LaunchScreen.storyboard */; };
+		A4D9E0DA1FAC154900B7989D /* PediatricSensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9E0D91FAC154900B7989D /* PediatricSensorTests.swift */; };
+		A4D9E0E51FAC154900B7989D /* PediatricSensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9E0E41FAC154900B7989D /* PediatricSensorUITests.swift */; };
+		A4D9E0F31FAC184500B7989D /* BluetoothConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9E0F21FAC184500B7989D /* BluetoothConnector.swift */; };
+		B73E9579467CFEB0BC50C12B /* Pods_PediatricSensor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E21DBECDFCF5825CFC9DAC /* Pods_PediatricSensor.framework */; };
+		DB33DC031D1DB54E8929F99F /* Pods_PediatricSensorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB2B66547E521F86A3135F8 /* Pods_PediatricSensorUITests.framework */; };
+		E71CAD6ABF362A6480B93FA9 /* Pods_PediatricSensorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F90357770D184F6CF2C909F /* Pods_PediatricSensorTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4D9E0D61FAC154900B7989D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D9E0B91FAC154900B7989D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D9E0C01FAC154900B7989D;
+			remoteInfo = PediatricSensor;
+		};
+		A4D9E0E11FAC154900B7989D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D9E0B91FAC154900B7989D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D9E0C01FAC154900B7989D;
+			remoteInfo = PediatricSensor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D09FBB7D5652EEE021E61C /* Pods-PediatricSensorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PediatricSensorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PediatricSensorUITests/Pods-PediatricSensorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F90357770D184F6CF2C909F /* Pods_PediatricSensorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PediatricSensorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC02C6CAC478AE422CB5BEA /* Pods-PediatricSensor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PediatricSensor.release.xcconfig"; path = "Pods/Target Support Files/Pods-PediatricSensor/Pods-PediatricSensor.release.xcconfig"; sourceTree = "<group>"; };
+		5CB2B66547E521F86A3135F8 /* Pods_PediatricSensorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PediatricSensorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E21DBECDFCF5825CFC9DAC /* Pods_PediatricSensor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PediatricSensor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76084EADBCE6F82903CBE2D3 /* Pods-PediatricSensorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PediatricSensorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PediatricSensorTests/Pods-PediatricSensorTests.release.xcconfig"; sourceTree = "<group>"; };
+		84B7746C5DC894E3141AD301 /* Pods-PediatricSensorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PediatricSensorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PediatricSensorTests/Pods-PediatricSensorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A410A6D61FB3C816003B75D7 /* PediatricSensor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PediatricSensor-Bridging-Header.h"; sourceTree = "<group>"; };
+		A410A6D71FB3C817003B75D7 /* BluetoothConnectorObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothConnectorObjC.m; sourceTree = "<group>"; };
+		A410A6D91FB3C85F003B75D7 /* BluetoothConnectorObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothConnectorObjC.h; sourceTree = "<group>"; };
+		A410A6DD1FB3CDF6003B75D7 /* TDTempoDisc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDTempoDisc.h; sourceTree = "<group>"; };
+		A410A6DE1FB3CE06003B75D7 /* TDTempoDisc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDTempoDisc.m; sourceTree = "<group>"; };
+		A4AB210B1FB3F32C00D0129A /* ServerConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConnector.swift; sourceTree = "<group>"; };
+		A4D9E0C11FAC154900B7989D /* PediatricSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PediatricSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D9E0C41FAC154900B7989D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4D9E0C61FAC154900B7989D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4D9E0C91FAC154900B7989D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4D9E0CB1FAC154900B7989D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4D9E0CE1FAC154900B7989D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4D9E0D01FAC154900B7989D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D9E0D51FAC154900B7989D /* PediatricSensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PediatricSensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D9E0D91FAC154900B7989D /* PediatricSensorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PediatricSensorTests.swift; sourceTree = "<group>"; };
+		A4D9E0DB1FAC154900B7989D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D9E0E01FAC154900B7989D /* PediatricSensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PediatricSensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D9E0E41FAC154900B7989D /* PediatricSensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PediatricSensorUITests.swift; sourceTree = "<group>"; };
+		A4D9E0E61FAC154900B7989D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D9E0F21FAC184500B7989D /* BluetoothConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothConnector.swift; sourceTree = "<group>"; };
+		B8A820D44ABAAD393D726548 /* Pods-PediatricSensorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PediatricSensorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PediatricSensorUITests/Pods-PediatricSensorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F02F4757470FC069788A4C0C /* Pods-PediatricSensor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PediatricSensor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PediatricSensor/Pods-PediatricSensor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4D9E0BE1FAC154900B7989D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73E9579467CFEB0BC50C12B /* Pods_PediatricSensor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D9E0D21FAC154900B7989D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71CAD6ABF362A6480B93FA9 /* Pods_PediatricSensorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D9E0DD1FAC154900B7989D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB33DC031D1DB54E8929F99F /* Pods_PediatricSensorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA652A3D3EFA1BE9475BC2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F02F4757470FC069788A4C0C /* Pods-PediatricSensor.debug.xcconfig */,
+				3FC02C6CAC478AE422CB5BEA /* Pods-PediatricSensor.release.xcconfig */,
+				84B7746C5DC894E3141AD301 /* Pods-PediatricSensorTests.debug.xcconfig */,
+				76084EADBCE6F82903CBE2D3 /* Pods-PediatricSensorTests.release.xcconfig */,
+				B8A820D44ABAAD393D726548 /* Pods-PediatricSensorUITests.debug.xcconfig */,
+				04D09FBB7D5652EEE021E61C /* Pods-PediatricSensorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87DFB65C8E5CF6152EA85B42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61E21DBECDFCF5825CFC9DAC /* Pods_PediatricSensor.framework */,
+				0F90357770D184F6CF2C909F /* Pods_PediatricSensorTests.framework */,
+				5CB2B66547E521F86A3135F8 /* Pods_PediatricSensorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4D9E0B81FAC154900B7989D = {
+			isa = PBXGroup;
+			children = (
+				A4D9E0C31FAC154900B7989D /* PediatricSensor */,
+				A4D9E0D81FAC154900B7989D /* PediatricSensorTests */,
+				A4D9E0E31FAC154900B7989D /* PediatricSensorUITests */,
+				A4D9E0C21FAC154900B7989D /* Products */,
+				2BA652A3D3EFA1BE9475BC2A /* Pods */,
+				87DFB65C8E5CF6152EA85B42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4D9E0C21FAC154900B7989D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D9E0C11FAC154900B7989D /* PediatricSensor.app */,
+				A4D9E0D51FAC154900B7989D /* PediatricSensorTests.xctest */,
+				A4D9E0E01FAC154900B7989D /* PediatricSensorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4D9E0C31FAC154900B7989D /* PediatricSensor */ = {
+			isa = PBXGroup;
+			children = (
+				A4D9E0C41FAC154900B7989D /* AppDelegate.swift */,
+				A4D9E0C61FAC154900B7989D /* ViewController.swift */,
+				A4D9E0C81FAC154900B7989D /* Main.storyboard */,
+				A4D9E0CB1FAC154900B7989D /* Assets.xcassets */,
+				A4D9E0CD1FAC154900B7989D /* LaunchScreen.storyboard */,
+				A4D9E0D01FAC154900B7989D /* Info.plist */,
+				A4D9E0F21FAC184500B7989D /* BluetoothConnector.swift */,
+				A410A6D91FB3C85F003B75D7 /* BluetoothConnectorObjC.h */,
+				A410A6D71FB3C817003B75D7 /* BluetoothConnectorObjC.m */,
+				A410A6DD1FB3CDF6003B75D7 /* TDTempoDisc.h */,
+				A410A6DE1FB3CE06003B75D7 /* TDTempoDisc.m */,
+				A410A6D61FB3C816003B75D7 /* PediatricSensor-Bridging-Header.h */,
+				A4AB210B1FB3F32C00D0129A /* ServerConnector.swift */,
+			);
+			path = PediatricSensor;
+			sourceTree = "<group>";
+		};
+		A4D9E0D81FAC154900B7989D /* PediatricSensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D9E0D91FAC154900B7989D /* PediatricSensorTests.swift */,
+				A4D9E0DB1FAC154900B7989D /* Info.plist */,
+			);
+			path = PediatricSensorTests;
+			sourceTree = "<group>";
+		};
+		A4D9E0E31FAC154900B7989D /* PediatricSensorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D9E0E41FAC154900B7989D /* PediatricSensorUITests.swift */,
+				A4D9E0E61FAC154900B7989D /* Info.plist */,
+			);
+			path = PediatricSensorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4D9E0C01FAC154900B7989D /* PediatricSensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D9E0E91FAC154900B7989D /* Build configuration list for PBXNativeTarget "PediatricSensor" */;
+			buildPhases = (
+				167CDE56BA78FBB203613DD2 /* [CP] Check Pods Manifest.lock */,
+				A4D9E0BD1FAC154900B7989D /* Sources */,
+				A4D9E0BE1FAC154900B7989D /* Frameworks */,
+				A4D9E0BF1FAC154900B7989D /* Resources */,
+				E70EF0A336930966A737065C /* [CP] Embed Pods Frameworks */,
+				A83EDE9E9462B7986C025D3B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PediatricSensor;
+			productName = PediatricSensor;
+			productReference = A4D9E0C11FAC154900B7989D /* PediatricSensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4D9E0D41FAC154900B7989D /* PediatricSensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D9E0EC1FAC154900B7989D /* Build configuration list for PBXNativeTarget "PediatricSensorTests" */;
+			buildPhases = (
+				7C0CB18AF52554C10553F8E7 /* [CP] Check Pods Manifest.lock */,
+				A4D9E0D11FAC154900B7989D /* Sources */,
+				A4D9E0D21FAC154900B7989D /* Frameworks */,
+				A4D9E0D31FAC154900B7989D /* Resources */,
+				918E504DC1A25C617370E714 /* [CP] Embed Pods Frameworks */,
+				83E15152E90E177ECDB283D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D9E0D71FAC154900B7989D /* PBXTargetDependency */,
+			);
+			name = PediatricSensorTests;
+			productName = PediatricSensorTests;
+			productReference = A4D9E0D51FAC154900B7989D /* PediatricSensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4D9E0DF1FAC154900B7989D /* PediatricSensorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D9E0EF1FAC154900B7989D /* Build configuration list for PBXNativeTarget "PediatricSensorUITests" */;
+			buildPhases = (
+				9D93F1834ABD92158BB3D47B /* [CP] Check Pods Manifest.lock */,
+				A4D9E0DC1FAC154900B7989D /* Sources */,
+				A4D9E0DD1FAC154900B7989D /* Frameworks */,
+				A4D9E0DE1FAC154900B7989D /* Resources */,
+				6151342DBC7F6BCE4DA8FFE9 /* [CP] Embed Pods Frameworks */,
+				F716675A5BD427FAAB02C95D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D9E0E21FAC154900B7989D /* PBXTargetDependency */,
+			);
+			name = PediatricSensorUITests;
+			productName = PediatricSensorUITests;
+			productReference = A4D9E0E01FAC154900B7989D /* PediatricSensorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4D9E0B91FAC154900B7989D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Mohab Gabal";
+				TargetAttributes = {
+					A4D9E0C01FAC154900B7989D = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					A4D9E0D41FAC154900B7989D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4D9E0C01FAC154900B7989D;
+					};
+					A4D9E0DF1FAC154900B7989D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4D9E0C01FAC154900B7989D;
+					};
+				};
+			};
+			buildConfigurationList = A4D9E0BC1FAC154900B7989D /* Build configuration list for PBXProject "PediatricSensor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4D9E0B81FAC154900B7989D;
+			productRefGroup = A4D9E0C21FAC154900B7989D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4D9E0C01FAC154900B7989D /* PediatricSensor */,
+				A4D9E0D41FAC154900B7989D /* PediatricSensorTests */,
+				A4D9E0DF1FAC154900B7989D /* PediatricSensorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4D9E0BF1FAC154900B7989D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D9E0CF1FAC154900B7989D /* LaunchScreen.storyboard in Resources */,
+				A4D9E0CC1FAC154900B7989D /* Assets.xcassets in Resources */,
+				A4D9E0CA1FAC154900B7989D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D9E0D31FAC154900B7989D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D9E0DE1FAC154900B7989D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		167CDE56BA78FBB203613DD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PediatricSensor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6151342DBC7F6BCE4DA8FFE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PediatricSensorUITests/Pods-PediatricSensorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C0CB18AF52554C10553F8E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PediatricSensorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83E15152E90E177ECDB283D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PediatricSensorTests/Pods-PediatricSensorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		918E504DC1A25C617370E714 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PediatricSensorTests/Pods-PediatricSensorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D93F1834ABD92158BB3D47B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PediatricSensorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A83EDE9E9462B7986C025D3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PediatricSensor/Pods-PediatricSensor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E70EF0A336930966A737065C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PediatricSensor/Pods-PediatricSensor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/LGBluetooth/LGBluetooth.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBluetooth/SwiftyBluetooth.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGBluetooth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBluetooth.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PediatricSensor/Pods-PediatricSensor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F716675A5BD427FAAB02C95D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PediatricSensorUITests/Pods-PediatricSensorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4D9E0BD1FAC154900B7989D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D9E0F31FAC184500B7989D /* BluetoothConnector.swift in Sources */,
+				A4D9E0C71FAC154900B7989D /* ViewController.swift in Sources */,
+				A410A6D81FB3C817003B75D7 /* BluetoothConnectorObjC.m in Sources */,
+				A410A6DF1FB3CE06003B75D7 /* TDTempoDisc.m in Sources */,
+				A4AB210C1FB3F32C00D0129A /* ServerConnector.swift in Sources */,
+				A4D9E0C51FAC154900B7989D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D9E0D11FAC154900B7989D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D9E0DA1FAC154900B7989D /* PediatricSensorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D9E0DC1FAC154900B7989D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D9E0E51FAC154900B7989D /* PediatricSensorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4D9E0D71FAC154900B7989D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D9E0C01FAC154900B7989D /* PediatricSensor */;
+			targetProxy = A4D9E0D61FAC154900B7989D /* PBXContainerItemProxy */;
+		};
+		A4D9E0E21FAC154900B7989D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D9E0C01FAC154900B7989D /* PediatricSensor */;
+			targetProxy = A4D9E0E11FAC154900B7989D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4D9E0C81FAC154900B7989D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D9E0C91FAC154900B7989D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4D9E0CD1FAC154900B7989D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D9E0CE1FAC154900B7989D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4D9E0E71FAC154900B7989D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4D9E0E81FAC154900B7989D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4D9E0EA1FAC154900B7989D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F02F4757470FC069788A4C0C /* Pods-PediatricSensor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J58C8CJT;
+				INFOPLIST_FILE = PediatricSensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PediatricSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PediatricSensor/PediatricSensor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4D9E0EB1FAC154900B7989D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC02C6CAC478AE422CB5BEA /* Pods-PediatricSensor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J58C8CJT;
+				INFOPLIST_FILE = PediatricSensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PediatricSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PediatricSensor/PediatricSensor-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4D9E0ED1FAC154900B7989D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B7746C5DC894E3141AD301 /* Pods-PediatricSensorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J58C8CJT;
+				INFOPLIST_FILE = PediatricSensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.PediatricSensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PediatricSensor.app/PediatricSensor";
+			};
+			name = Debug;
+		};
+		A4D9E0EE1FAC154900B7989D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76084EADBCE6F82903CBE2D3 /* Pods-PediatricSensorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J58C8CJT;
+				INFOPLIST_FILE = PediatricSensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.PediatricSensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PediatricSensor.app/PediatricSensor";
+			};
+			name = Release;
+		};
+		A4D9E0F01FAC154900B7989D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A820D44ABAAD393D726548 /* Pods-PediatricSensorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J58C8CJT;
+				INFOPLIST_FILE = PediatricSensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.PediatricSensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PediatricSensor;
+			};
+			name = Debug;
+		};
+		A4D9E0F11FAC154900B7989D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04D09FBB7D5652EEE021E61C /* Pods-PediatricSensorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J58C8CJT;
+				INFOPLIST_FILE = PediatricSensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.PediatricSensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PediatricSensor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4D9E0BC1FAC154900B7989D /* Build configuration list for PBXProject "PediatricSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D9E0E71FAC154900B7989D /* Debug */,
+				A4D9E0E81FAC154900B7989D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D9E0E91FAC154900B7989D /* Build configuration list for PBXNativeTarget "PediatricSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D9E0EA1FAC154900B7989D /* Debug */,
+				A4D9E0EB1FAC154900B7989D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D9E0EC1FAC154900B7989D /* Build configuration list for PBXNativeTarget "PediatricSensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D9E0ED1FAC154900B7989D /* Debug */,
+				A4D9E0EE1FAC154900B7989D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D9E0EF1FAC154900B7989D /* Build configuration list for PBXNativeTarget "PediatricSensorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D9E0F01FAC154900B7989D /* Debug */,
+				A4D9E0F11FAC154900B7989D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4D9E0B91FAC154900B7989D /* Project object */;
+}

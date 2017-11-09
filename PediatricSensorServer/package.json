@@ -1,0 +1,18 @@
+{
+  "name": "pediatricsensorapi",
+  "version": "1.0.0",
+  "description": "Server/API for Pediatric Sensor iOS app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Mohab Gabal",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.0"
+  }
+}

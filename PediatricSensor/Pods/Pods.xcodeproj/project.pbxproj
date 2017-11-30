@@ -7,201 +7,275 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		078CAB007123F1BF28BFF3DF688C6771 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7971D0FBD73289D3FA5308D44DDFD45A /* Util.swift */; };
-		0D3149FDC43C4581DB1EADB8065D9B79 /* LGPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = F50B99FD8BB9479BFBFF1EF7C32F9611 /* LGPeripheral.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FC4AEBD2B9C6906FF8DA7710AB11421 /* SwiftyBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B579C1437F330D3030BE7D89880B282 /* SwiftyBluetooth.swift */; };
-		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77821485AC5F833E8718097EEFAA0B1 /* Timeline.swift */; };
-		11A523C085158595EE1B463B0E57E811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93972F6957789C9E8A0EFA25275C82D1 /* Foundation.framework */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B20E49DAF1663A4DFA85718CA536215 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3149FDC43C4581DB1EADB8065D9B79 /* LGPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 1855AD87C4E6138EB4142EB778953132 /* LGPeripheral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A7EA0BBD86B2CF0154015708D41AF /* Timeline.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E039DDA27EC20FEA72D8DB33301BCA /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25CC174A7A7A82EEA2C4D2CFE185D492 /* Pods-PediatricSensorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE9CE91A124502EA227D7A7730C44EB /* Pods-PediatricSensorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26C29B3DF1B9463C6B303E301D5DDAA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93972F6957789C9E8A0EFA25275C82D1 /* Foundation.framework */; };
-		303975CB4056807CFC78F897C86F371B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93972F6957789C9E8A0EFA25275C82D1 /* Foundation.framework */; };
-		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F072495BD53F8941E4E12F85AD431 /* TaskDelegate.swift */; };
-		39E2EF16B7289F23C1E7EB437DA5AF2F /* SwiftyBluetooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 506CD630A79D1472D739535D6C028E60 /* SwiftyBluetooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39F9DA95EDAAC83B82188FBE804BC8DF /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9519215A9D38A1BC0B8F9A2C3A774B29 /* Peripheral.swift */; };
-		4557C736E3D77754BCB0E51CF410D38D /* LGService.m in Sources */ = {isa = PBXBuildFile; fileRef = F90F0FF611E078D078F72549D3B1D75C /* LGService.m */; };
-		47960557B7E7C4D07D8975AE738CBA83 /* SwiftyBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 483C115F3DD81E6982394D9610AB9705 /* SwiftyBluetooth-dummy.m */; };
-		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2334067E13B6038A98C0DC7E3040F3 /* Request.swift */; };
-		53C63ED816DE79945AC29A19DCC5A665 /* LGBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C3F266B456524EEE8F6A564D936FFA /* LGBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5928DBF7E9E39A30B4225AFA253CED2C /* CBUUIDPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7110934910F384D97018CF7C99B21 /* CBUUIDPath.swift */; };
-		5E55D6F03A91148819BA99E904AEF34B /* LGBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D0C3157DF797ABDCEC56271812CE50 /* LGBluetooth-dummy.m */; };
-		5F84B35EA4DCB03AAC0301283032FED3 /* LGPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 842086E2DACF379CC0B21DC6D3C8C8D6 /* LGPeripheral.m */; };
-		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2BE696708FD782A3DA8965FD49E28 /* DispatchQueue+Alamofire.swift */; };
-		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4706C34A5B1FC88493DB09E231F5365D /* ServerTrustPolicy.swift */; };
+		26C29B3DF1B9463C6B303E301D5DDAA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5989C451E6E368AF1F3A30D5A91D420C /* Foundation.framework */; };
+		301BA37255ADDA90D207E12F3CF8CDA7 /* CentralProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920C682266628F4032D34A81720F1247 /* CentralProxy.swift */; };
+		303975CB4056807CFC78F897C86F371B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5989C451E6E368AF1F3A30D5A91D420C /* Foundation.framework */; };
+		32851B85D5A718A0E1169D41FC82D4A4 /* Pods-PediatricSensor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A40BB73C94C474DDA918FB08B973E6C8 /* Pods-PediatricSensor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC93767DFD5988FC2B94DA6B8A35F2B /* TaskDelegate.swift */; };
+		394C37C7CB665C5AF35D9D3DDAFE9968 /* ReferenceLineDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F058B90FD960D575B8502F6A858CFF4E /* ReferenceLineDrawingView.swift */; };
+		3CE59BF240F475D675DA0E68DB4B0C14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C4DB2473E26C7B904DF1DD43968217 /* UIKit.framework */; };
+		3DAE400303684F06C1DC4CD47182B130 /* SwiftyBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F83DA997C92CCF6D81ABDE70E2DC73 /* SwiftyBluetooth-dummy.m */; };
+		425530017612EAEAE2D56B0BC1C35156 /* ReferenceLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = E854A61E8972E1C89EFA122C63284BAD /* ReferenceLines.swift */; };
+		4557C736E3D77754BCB0E51CF410D38D /* LGService.m in Sources */ = {isa = PBXBuildFile; fileRef = 89ED8FDE4F063EF5FDFD141BA99EF70D /* LGService.m */; };
+		48DE745350292ACC99891C730CD01BCE /* Central.swift in Sources */ = {isa = PBXBuildFile; fileRef = C133CA496E6A06D194F9495F475D923B /* Central.swift */; };
+		50FCE35E02DC2E89A90B164C01624FC7 /* CBUUIDPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084D4D7FA97FDD354DBD1EAC50E704C /* CBUUIDPath.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A3F504503ED151A16984C9DD064A58 /* Request.swift */; };
+		53C63ED816DE79945AC29A19DCC5A665 /* LGBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D03D1A49EAD82E5B5CBC3DA44FCE984 /* LGBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E55D6F03A91148819BA99E904AEF34B /* LGBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D3F7CCEF0A1481A94440E7C0818663 /* LGBluetooth-dummy.m */; };
+		5F84B35EA4DCB03AAC0301283032FED3 /* LGPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D493004159950833FA996CB89D63008 /* LGPeripheral.m */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A514DFB8DD36EF348C69BCBE9870EA /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABA0715C904543746CF0FD2325B2719 /* ServerTrustPolicy.swift */; };
+		668C62A2F02078055977E8C06057DBFE /* GradientDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972C23838ED14F8317E46F2A987A1BD1 /* GradientDrawingLayer.swift */; };
 		6841713A06B8E2D09AF70C7D156A41F2 /* Pods-PediatricSensorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7E8AFF5F8A0FD699D346AE056A1BAC /* Pods-PediatricSensorUITests-dummy.m */; };
-		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93972F6957789C9E8A0EFA25275C82D1 /* Foundation.framework */; };
+		6D949EA8D557950D692EF9246CC4780B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5989C451E6E368AF1F3A30D5A91D420C /* Foundation.framework */; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5989C451E6E368AF1F3A30D5A91D420C /* Foundation.framework */; };
 		7555C0976DC30E740175E97D00A9C904 /* Pods-PediatricSensorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A912460EE799596B0546AD31CB3F06F5 /* Pods-PediatricSensorTests-dummy.m */; };
-		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302F98DF4A3CE6C16BFECE0CE8908E3F /* SessionDelegate.swift */; };
-		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39E4DADC81875C7406FF254649FA73 /* Result.swift */; };
-		7FFF08E691DFB1A945076332CD670A62 /* LGCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AEA0D477FC6193AC63E5B9DAD95E4D /* LGCentralManager.m */; };
-		80675B98FB141098FBB0D6CC83EFDC77 /* LGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 104C4AB5B83FEDC5593EC3C6E7036CBF /* LGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		833080D57D6C0DD9CF91215B4B7C05E2 /* Pods-PediatricSensor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3833849CF99672195E7F94C5DD987B8E /* Pods-PediatricSensor-dummy.m */; };
-		86E27021C4898F0F60F675EE0A78B10F /* LGCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = A75086A6DDA23D8E914F229323CE0494 /* LGCharacteristic.m */; };
-		8C4D4991228AD931D9853499452054EA /* LGService.h in Headers */ = {isa = PBXBuildFile; fileRef = D774D5117861E23189AC8B0EB2F94FB4 /* LGService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		906643A625DF12CAB5234D6476E64445 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B675C2805EFC6AFA8A22462B9DF8075 /* Result.swift */; };
-		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF90BA355B4DF3DD4176BAF0E16D85DC /* AFError.swift */; };
-		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC1CA7918BC018AADE445BE1C6D4012 /* NetworkReachabilityManager.swift */; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F15BB524FD7FA4A8C65E8C794337696 /* Alamofire-dummy.m */; };
-		AD407A549CA5344BE9752CA85E7A6259 /* LGCharacteristic.h in Headers */ = {isa = PBXBuildFile; fileRef = E261132B728ECDF782293E7E2BCB3C09 /* LGCharacteristic.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB65BC4A1F947C299AD0FC99F53A2D9 /* SessionManager.swift */; };
-		B3A4AAF18D37BF330C9695FB7BF05224 /* CBUUID+StringExtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E65657CA994A25F517264AFA4D5C2 /* CBUUID+StringExtraction.m */; };
-		B58AC34DF81DC64F818788B2E95ED62C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93972F6957789C9E8A0EFA25275C82D1 /* Foundation.framework */; };
-		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2016910D97640993ACF3C43990A3A2 /* MultipartFormData.swift */; };
-		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B05042C889AF4371D6187EF436D08 /* Validation.swift */; };
-		BC2578E24BF33C7E97DC6E32AFF8A705 /* Central.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03B2E0A46FCD999473AA6FEFE3817BA /* Central.swift */; };
-		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F3FE7C1C2E41FDD4F81139AC6A30E /* ParameterEncoding.swift */; };
-		BF2D655FE24556BD058D5686BECED7E7 /* LGBluetooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B704A6E9CAE7BA0CEA88E707D10D73B6 /* LGBluetooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1E7F75D6EC2D282B17AE230A7369243 /* Pods-PediatricSensor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A40BB73C94C474DDA918FB08B973E6C8 /* Pods-PediatricSensor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C32DFA03DD07A05C6902A809B366B311 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93972F6957789C9E8A0EFA25275C82D1 /* Foundation.framework */; };
-		C4BC5527ECB8A6AB98569F315ED50CDA /* CBUUIDConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFABFB9F6F71879C1C992FA4E8984B8 /* CBUUIDConvertible.swift */; };
-		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2DA581AB38933B519B9420BF5D58E3 /* Response.swift */; };
-		CD0FC1F2B862BF1684EDE6FB64DF9223 /* LGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EDA54172EED81ADC6093B8EB709CBA /* LGUtils.m */; };
-		D96A6E492B9DADFBD6C453211713207F /* PeripheralProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687273D1C8A3CB27CE5406F0AA958D5 /* PeripheralProxy.swift */; };
-		DC26133FD45F3C6EAEE02B70488AD488 /* DescriptorValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1129BFB6DDDAD1988EC68DDCFE7C6D22 /* DescriptorValue.swift */; };
-		DFFDF4E09A9D31808A3BB7AF2E5C71B8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EA00AEA27063E54337CB3252DEA73FF /* CoreBluetooth.framework */; };
-		E5AF0C76A23BC2AEFDA412BEEF30632A /* CentralProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410BFCA875DD5E002CA751D58ADACB9 /* CentralProxy.swift */; };
-		E8B8126B3C51508673759F8229D3257D /* CBUUID+StringExtraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EBDA545C86169D06845972A3B3AC1E /* CBUUID+StringExtraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77276B1D75CC7B484967B9A93F418E96 /* DescriptorValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08C7E8592248A7BE3C1D123CA276993 /* DescriptorValue.swift */; };
+		7A013EF780FD7D97FFC78CE0CC94680D /* ANLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EB0295D6C7168CD6FCF4F9BF5A2FBB /* ANLoader.swift */; };
+		7B2905BEEA850FF64D54B1B54E4E91C6 /* ScrollableGraphViewDrawingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F330CE5EB0205B0CC11E5B83C216DA44 /* ScrollableGraphViewDrawingDelegate.swift */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1459EC028168BE1A220F2A8FC595ACB3 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845929A60D5B58B06AF97DDF4FDF5C9B /* Result.swift */; };
+		7FD6DD047DF93878A5C20548828D7CFB /* ScrollableGraphView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C01A07A763EFB228B0011B1C60745E0 /* ScrollableGraphView-dummy.m */; };
+		7FFF08E691DFB1A945076332CD670A62 /* LGCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FC43A55E43B515C39BF692B3B43933 /* LGCentralManager.m */; };
+		80675B98FB141098FBB0D6CC83EFDC77 /* LGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9ED42EE82861D12939DAE931A1C87B /* LGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		834D7A6D4824FBAE11F24CCBFB6C9936 /* LabelPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F20378B45782BA68F786157613C11D /* LabelPool.swift */; };
+		848A88A29C7DD69D0DBAEFDA425435E5 /* CBUUIDConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9201B3A0765BF374091BAE31C7A780D /* CBUUIDConvertible.swift */; };
+		85451BAC72174B367AEB7005415C901B /* GraphPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E1A69D93B55F0A4E15E2C226B82BE /* GraphPoint.swift */; };
+		86C62992723E64F67BC0E6E010FB7DD8 /* ScrollableGraphViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D44FF90B3348231E1BDAC0E763388C /* ScrollableGraphViewDataSource.swift */; };
+		86E27021C4898F0F60F675EE0A78B10F /* LGCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8315B0494E61378F97F0F54790A54A /* LGCharacteristic.m */; };
+		88C18D2EE86433424627E35DA769060E /* CBExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29663049F36FD5675ABA1B7BAF9A325 /* CBExtensions.swift */; };
+		8C4D4991228AD931D9853499452054EA /* LGService.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B427AF1CD5E05195E0A19EE1AD064F7 /* LGService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FD3E29B4121F0C0C5915933EF3B41AC /* SwiftyBluetooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8E93BBA8D4612DF8DF02E5D9B05181C /* SwiftyBluetooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		934DBADEBC9C677FF123951640E2277B /* GraphPointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D0497B6DAFEE7DD3A4938BBECAA18 /* GraphPointAnimation.swift */; };
+		9EA03F993AB993A6E65F860AE6C67E02 /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8344A195C7BAFA4D97B921F7C0778E8 /* Plot.swift */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFD431DC6E91C165C23F05928C773C /* AFError.swift */; };
+		A1B9E38A6965BE01751E907858FC6760 /* DotDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825CAD5A8919C7D02466748643DF0AA9 /* DotDrawingLayer.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9665409F3DBF9F10985EAB97D5E87B /* NetworkReachabilityManager.swift */; };
+		A35EC74F7E2D385261C0E2831A927CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5989C451E6E368AF1F3A30D5A91D420C /* Foundation.framework */; };
+		A3E0F3CFCA063A1DDC98DD1E215BA62A /* SBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D85B50840B293B9C105D08B9143A43 /* SBError.swift */; };
+		A61BF87856174B477A12D7AB7D9808FB /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77DA209D23D13E85CB093BD748815AA /* Util.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED925C90463E2294140FB014663C01D /* Alamofire-dummy.m */; };
+		AAFBE2B6E8C9FE66278E11AE465FFF74 /* LinePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF2295A1AB91BAC67E4F3D7271D3785 /* LinePlot.swift */; };
+		AD407A549CA5344BE9752CA85E7A6259 /* LGCharacteristic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9032F9E8A6B741BF3C3E4480137ADA12 /* LGCharacteristic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF6BE4BC2C0F0034F205EB1B9258B5 /* SessionManager.swift */; };
+		AE57700675AA7507A516AD16FF32B31F /* LineDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EDEE17FB755EA25DCFD0EDB45C373 /* LineDrawingLayer.swift */; };
+		B3A4AAF18D37BF330C9695FB7BF05224 /* CBUUID+StringExtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 792377BC4996CF434B73C3763BB105F0 /* CBUUID+StringExtraction.m */; };
+		B607467652038D65AC00A3CFDC8A547E /* PeripheralProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213261F5105FBD87245FD88CE539B63 /* PeripheralProxy.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DBE5EA89E1CE7941FF783810AE2AC3 /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF04CF9FFB2F10821AA0ED732CD5023 /* Validation.swift */; };
+		BE49E7DC88844B86BA63A94A83FC7F26 /* ScrollableGraphView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E5DE60BF06744936ECF9BEDD04AFA8 /* ScrollableGraphView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D54F69A9EA2F31DEB6CBE7EF374600F /* ParameterEncoding.swift */; };
+		BF2D655FE24556BD058D5686BECED7E7 /* LGBluetooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 909EF38BF285AFFE7A6BC77FA2FDCABF /* LGBluetooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1AAF4A1A4E24A4A2DD0901BA311DC4D /* ANLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDAAF1D28AD6C164B438F0D81B55FC8 /* ANLoader-dummy.m */; };
+		C2C88E8AABDA76363449EFAB7C632024 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A230088DA30F6B5410A756313BAC771C /* Result.swift */; };
+		C32DFA03DD07A05C6902A809B366B311 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5989C451E6E368AF1F3A30D5A91D420C /* Foundation.framework */; };
+		C8A23DE8B83DB45C62E7749EFB493F1B /* ScrollableGraphViewDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19F33AA3C2EAEB9414938BB6939190 /* ScrollableGraphViewDrawingLayer.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747160A0E1A34DB511DBB2C23AF28980 /* Response.swift */; };
+		CD0FC1F2B862BF1684EDE6FB64DF9223 /* LGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC5222A56C7D9AC4CBFE294576C9001 /* LGUtils.m */; };
+		D0952D42B95D13B07697AECA75377D9F /* BarDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DACD4D03E4B2EFC174E22AB17ED82D /* BarDrawingLayer.swift */; };
+		D12DDF331ABA961B210550D2CA8A10B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5989C451E6E368AF1F3A30D5A91D420C /* Foundation.framework */; };
+		D8298FE16019BC0FBC5751060FE46E0B /* BarPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961976531624481FD2FFE72942C99925 /* BarPlot.swift */; };
+		D9EDBBE21E23162DD8D4C354CACFA562 /* Pods-PediatricSensor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3833849CF99672195E7F94C5DD987B8E /* Pods-PediatricSensor-dummy.m */; };
+		DCD6329305AC60B8CF523E8E5C79B067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5989C451E6E368AF1F3A30D5A91D420C /* Foundation.framework */; };
+		DFC31B1A4DCEE3868D098871E4DBB11B /* FillDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87451A291946590E8ACE77BB881534 /* FillDrawingLayer.swift */; };
+		DFFDF4E09A9D31808A3BB7AF2E5C71B8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD2BE03D5DF4F1A15D4B4E9B19EA1D5 /* CoreBluetooth.framework */; };
+		E410A6FE0460C8ECF588B0AB7990BE2C /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6778243BC6F2628291AA221BB86A183 /* Peripheral.swift */; };
+		E8B8126B3C51508673759F8229D3257D /* CBUUID+StringExtraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 599D9605818C0165072A9D5DFBE7628D /* CBUUID+StringExtraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAEAD847917492EAC99D95F9CEAA144E /* ANLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C8A4A331B681DEE873C5A5D61AE27A /* ANLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC0DC055EC658EC4AF6017A2DE857449 /* Pods-PediatricSensorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 818602CC5E114A001B09685A7B96DC6B /* Pods-PediatricSensorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDFBD83DB9E09AF5D6331D804B712CB6 /* CBExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ADEE7B8A4083D618F5A3ED47B552E6 /* CBExtensions.swift */; };
-		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A21F5B6C066D91BE4D492C815A6988 /* Notifications.swift */; };
-		F5D290FD40548712F9E25FFC2F0D5C12 /* LGCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BED91070B1FA8FFBA2F3B8ACEF134DFF /* LGCentralManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1180919243496C00E8A4120AAD44B5 /* ResponseSerialization.swift */; };
-		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CC07093248E42C3D7D1169296A63E /* Alamofire.swift */; };
-		FC15C4F6A8A625167350B75B2F2F08A0 /* SBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E0D13887514E3AE31FE964A8ABAE3 /* SBError.swift */; };
+		ED9E0B87A35E9F0C697912C924A0C6CB /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD4D45C98C48C71DADA30CAAC39AD57 /* ScrollableGraphView.swift */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23266CDFEBA47CFF3AB3435CB214E7 /* Notifications.swift */; };
+		F0639C0068707D3ABAE41A7EC2CDF31C /* SwiftyBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B1669605A19CB9DB76A6002B86D26 /* SwiftyBluetooth.swift */; };
+		F5D290FD40548712F9E25FFC2F0D5C12 /* LGCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 896388DB2AD857DD414793A500ADA3BE /* LGCentralManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E8ED62F9213B3264AD8699AE779C0 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA687CCA367EFFE076D69AAAE59171E /* Alamofire.swift */; };
+		FC2EE1C74003F7BB2639A96B5C6107E3 /* DotPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3353D2207E34B1A31BBACE5D50C315A4 /* DotPlot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E527B8983A4E2F3A39101A076D1BEA93 /* PBXContainerItemProxy */ = {
+		2C9ACA681F985A392A9D89E8EA4E7A97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0BAECEDF8F1B187BB44AB27637CEFF90;
-			remoteInfo = LGBluetooth;
+			remoteGlobalIDString = FD8F5CBDB438D57996A209CDE7AF7B18;
+			remoteInfo = ScrollableGraphView;
 		};
-		E6A88D7263579E11505704457C639732 /* PBXContainerItemProxy */ = {
+		55F670441C465F190E23808DCCFAEE37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
 			remoteInfo = Alamofire;
 		};
-		F08E7B86B64201DE94FD7CC3F1B706DD /* PBXContainerItemProxy */ = {
+		5F6398B547A9CECFEFF8295DB80129CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ADACE3043D5582BBD2E28E4DBA43B1E1;
+			remoteGlobalIDString = 6D84F94F2DD35AE079674FAFC7CD3566;
 			remoteInfo = SwiftyBluetooth;
+		};
+		61F979F924AC145C02A8B0FCB5B12FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BAECEDF8F1B187BB44AB27637CEFF90;
+			remoteInfo = LGBluetooth;
+		};
+		8B931BD637773FE0F75E9BC1CA7DBD7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CE57E025349EFDD992F790715F78FD4;
+			remoteInfo = ANLoader;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		065A629E49A18467C945C5A612EFA31F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08913B10560D197C909F29751629DE10 /* Pods-PediatricSensorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PediatricSensorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0D7878DBBA55E263CCAE1B5AE5678573 /* Pods_PediatricSensor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PediatricSensor.framework; path = "Pods-PediatricSensor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		104C4AB5B83FEDC5593EC3C6E7036CBF /* LGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGUtils.h; path = LGBluetooth/LGUtils.h; sourceTree = "<group>"; };
+		09481A177C0C4AB8846323ED24374451 /* Pods_PediatricSensor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PediatricSensor.framework; path = "Pods-PediatricSensor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BC84FBDBA4C82F949111B80B1AC7EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B427AF1CD5E05195E0A19EE1AD064F7 /* LGService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGService.h; path = LGBluetooth/LGService.h; sourceTree = "<group>"; };
+		0BDDCF20190C26A7250A505A2BDE6548 /* ScrollableGraphView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ScrollableGraphView.modulemap; sourceTree = "<group>"; };
+		0C0F74B50C31BBE2B7758A4F65D0E993 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10EB0295D6C7168CD6FCF4F9BF5A2FBB /* ANLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ANLoader.swift; path = ANLoader/Classes/ANLoader.swift; sourceTree = "<group>"; };
 		10FBDF1B05F16D7A5429A65B3238F5DA /* Pods-PediatricSensorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PediatricSensorTests-frameworks.sh"; sourceTree = "<group>"; };
-		1129BFB6DDDAD1988EC68DDCFE7C6D22 /* DescriptorValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DescriptorValue.swift; path = SwiftyBluetooth/Source/DescriptorValue.swift; sourceTree = "<group>"; };
-		1564A12A90D42F81898727D6ED1FD6FD /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BABC1B815D3B8AAA7B695EFCF7E0750 /* LGBluetooth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBluetooth.xcconfig; sourceTree = "<group>"; };
-		1E05CA96053B163C13AC22D3BA579A82 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		1EA00AEA27063E54337CB3252DEA73FF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
-		1F447E5CA857F3CEF6AE3B3CF08B5665 /* Pods_PediatricSensorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PediatricSensorUITests.framework; path = "Pods-PediatricSensorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FFABFB9F6F71879C1C992FA4E8984B8 /* CBUUIDConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBUUIDConvertible.swift; path = SwiftyBluetooth/Source/CBUUIDConvertible.swift; sourceTree = "<group>"; };
-		21D0C3157DF797ABDCEC56271812CE50 /* LGBluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGBluetooth-dummy.m"; sourceTree = "<group>"; };
-		2DC1CA7918BC018AADE445BE1C6D4012 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		302F98DF4A3CE6C16BFECE0CE8908E3F /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		11AF6BE4BC2C0F0034F205EB1B9258B5 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		12F20378B45782BA68F786157613C11D /* LabelPool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelPool.swift; path = Classes/Reference/LabelPool.swift; sourceTree = "<group>"; };
+		1459EC028168BE1A220F2A8FC595ACB3 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		1855AD87C4E6138EB4142EB778953132 /* LGPeripheral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPeripheral.h; path = LGBluetooth/LGPeripheral.h; sourceTree = "<group>"; };
+		1ABA0715C904543746CF0FD2325B2719 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		23A3F504503ED151A16984C9DD064A58 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		2802879973741D4732BD250E69E98C46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F23266CDFEBA47CFF3AB3435CB214E7 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		2FA687CCA367EFFE076D69AAAE59171E /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		3353D2207E34B1A31BBACE5D50C315A4 /* DotPlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotPlot.swift; path = Classes/Plots/DotPlot.swift; sourceTree = "<group>"; };
 		3466D23661204D97511B28109BB061A4 /* Pods-PediatricSensor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PediatricSensor-acknowledgements.markdown"; sourceTree = "<group>"; };
 		349A61AD917387FCDA9DB1B555197792 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3833849CF99672195E7F94C5DD987B8E /* Pods-PediatricSensor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PediatricSensor-dummy.m"; sourceTree = "<group>"; };
-		3CA2BE696708FD782A3DA8965FD49E28 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		3B1EDEE17FB755EA25DCFD0EDB45C373 /* LineDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineDrawingLayer.swift; path = Classes/Drawing/LineDrawingLayer.swift; sourceTree = "<group>"; };
+		3B9665409F3DBF9F10985EAB97D5E87B /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		3ED15A0F087B951A0956BA47D5F3C52E /* Pods-PediatricSensorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PediatricSensorUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		3FB65BC4A1F947C299AD0FC99F53A2D9 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		4290435F5919650DC6DA3EAA488079F5 /* Pods-PediatricSensorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PediatricSensorTests.release.xcconfig"; sourceTree = "<group>"; };
-		4410BFCA875DD5E002CA751D58ADACB9 /* CentralProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CentralProxy.swift; path = SwiftyBluetooth/Source/CentralProxy.swift; sourceTree = "<group>"; };
-		4706C34A5B1FC88493DB09E231F5365D /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		46C8A4A331B681DEE873C5A5D61AE27A /* ANLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANLoader-umbrella.h"; sourceTree = "<group>"; };
 		47195CF47668A9BA2755A6561E95FCCE /* Pods-PediatricSensorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PediatricSensorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		483C115F3DD81E6982394D9610AB9705 /* SwiftyBluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBluetooth-dummy.m"; sourceTree = "<group>"; };
-		4A2DA581AB38933B519B9420BF5D58E3 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		4D2016910D97640993ACF3C43990A3A2 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		4D9F3FE7C1C2E41FDD4F81139AC6A30E /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		506CD630A79D1472D739535D6C028E60 /* SwiftyBluetooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBluetooth-umbrella.h"; sourceTree = "<group>"; };
+		48D85B50840B293B9C105D08B9143A43 /* SBError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBError.swift; path = SwiftyBluetooth/Source/SBError.swift; sourceTree = "<group>"; };
+		4A8DC810486520EB5F1BC089BD148DED /* LGBluetooth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBluetooth.xcconfig; sourceTree = "<group>"; };
+		4B8315B0494E61378F97F0F54790A54A /* LGCharacteristic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGCharacteristic.m; path = LGBluetooth/LGCharacteristic.m; sourceTree = "<group>"; };
 		50AF71DE5E09441695DF9F57913711A5 /* Pods-PediatricSensor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PediatricSensor.release.xcconfig"; sourceTree = "<group>"; };
 		5103DC453E011975D775E286DE5292FB /* Pods-PediatricSensorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PediatricSensorUITests-resources.sh"; sourceTree = "<group>"; };
-		53AEA0D477FC6193AC63E5B9DAD95E4D /* LGCentralManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGCentralManager.m; path = LGBluetooth/LGCentralManager.m; sourceTree = "<group>"; };
+		518852E9AECCB534BB6C03B4EB47AF96 /* ScrollableGraphView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableGraphView-prefix.pch"; sourceTree = "<group>"; };
 		546A651024BC810FE72E08F16CB28C93 /* Pods-PediatricSensorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PediatricSensorUITests.modulemap"; sourceTree = "<group>"; };
+		56667175AA1CEA097B08E9C29BB2DE77 /* ANLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANLoader-prefix.pch"; sourceTree = "<group>"; };
+		57D44FF90B3348231E1BDAC0E763388C /* ScrollableGraphViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDataSource.swift; path = Classes/Protocols/ScrollableGraphViewDataSource.swift; sourceTree = "<group>"; };
+		5989C451E6E368AF1F3A30D5A91D420C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		599D9605818C0165072A9D5DFBE7628D /* CBUUID+StringExtraction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBUUID+StringExtraction.h"; path = "LGBluetooth/CBUUID+StringExtraction.h"; sourceTree = "<group>"; };
+		5A3E1A69D93B55F0A4E15E2C226B82BE /* GraphPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphPoint.swift; path = Classes/Plots/Animation/GraphPoint.swift; sourceTree = "<group>"; };
 		5B2B45FC37FC808BC3A3A7735503FE60 /* Pods-PediatricSensorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PediatricSensorTests-resources.sh"; sourceTree = "<group>"; };
 		5B68B011C4D1F9E33B542A3B4BDA14B2 /* Pods-PediatricSensorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PediatricSensorTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5C1180919243496C00E8A4120AAD44B5 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		5F15BB524FD7FA4A8C65E8C794337696 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		63EBDA545C86169D06845972A3B3AC1E /* CBUUID+StringExtraction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBUUID+StringExtraction.h"; path = "LGBluetooth/CBUUID+StringExtraction.h"; sourceTree = "<group>"; };
-		64EDA54172EED81ADC6093B8EB709CBA /* LGUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGUtils.m; path = LGBluetooth/LGUtils.m; sourceTree = "<group>"; };
-		65ADEE7B8A4083D618F5A3ED47B552E6 /* CBExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBExtensions.swift; path = SwiftyBluetooth/Source/CBExtensions.swift; sourceTree = "<group>"; };
-		6A0CC07093248E42C3D7D1169296A63E /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		6B675C2805EFC6AFA8A22462B9DF8075 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = SwiftyBluetooth/Source/Result.swift; sourceTree = "<group>"; };
+		5BDAAF1D28AD6C164B438F0D81B55FC8 /* ANLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ANLoader-dummy.m"; sourceTree = "<group>"; };
+		5CD2BE03D5DF4F1A15D4B4E9B19EA1D5 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		5D03D1A49EAD82E5B5CBC3DA44FCE984 /* LGBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGBluetooth.h; path = LGBluetooth/LGBluetooth.h; sourceTree = "<group>"; };
+		5F19F33AA3C2EAEB9414938BB6939190 /* ScrollableGraphViewDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDrawingLayer.swift; path = Classes/Drawing/ScrollableGraphViewDrawingLayer.swift; sourceTree = "<group>"; };
+		61E039DDA27EC20FEA72D8DB33301BCA /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		6338F06810A5DEBAFFF6D86D588287F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635E8ED62F9213B3264AD8699AE779C0 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		6BF2295A1AB91BAC67E4F3D7271D3785 /* LinePlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinePlot.swift; path = Classes/Plots/LinePlot.swift; sourceTree = "<group>"; };
+		6C01A07A763EFB228B0011B1C60745E0 /* ScrollableGraphView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollableGraphView-dummy.m"; sourceTree = "<group>"; };
+		6ED925C90463E2294140FB014663C01D /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		7171A11FEC77B63E4AF6ACA21A656C3D /* LGBluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBluetooth-prefix.pch"; sourceTree = "<group>"; };
 		73967E0790B51DD65D2DCCE71460F6E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		752E65657CA994A25F517264AFA4D5C2 /* CBUUID+StringExtraction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBUUID+StringExtraction.m"; path = "LGBluetooth/CBUUID+StringExtraction.m"; sourceTree = "<group>"; };
-		757A24C1F06CD77F2E45FF3E8ED0DED1 /* LGBluetooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LGBluetooth.modulemap; sourceTree = "<group>"; };
-		7971D0FBD73289D3FA5308D44DDFD45A /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = SwiftyBluetooth/Source/Util.swift; sourceTree = "<group>"; };
+		747160A0E1A34DB511DBB2C23AF28980 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		75F83DA997C92CCF6D81ABDE70E2DC73 /* SwiftyBluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBluetooth-dummy.m"; sourceTree = "<group>"; };
+		76FC43A55E43B515C39BF692B3B43933 /* LGCentralManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGCentralManager.m; path = LGBluetooth/LGCentralManager.m; sourceTree = "<group>"; };
+		792377BC4996CF434B73C3763BB105F0 /* CBUUID+StringExtraction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBUUID+StringExtraction.m"; path = "LGBluetooth/CBUUID+StringExtraction.m"; sourceTree = "<group>"; };
 		7AE9CE91A124502EA227D7A7730C44EB /* Pods-PediatricSensorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PediatricSensorTests-umbrella.h"; sourceTree = "<group>"; };
-		7B4B05042C889AF4371D6187EF436D08 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		7B7494128F689925ABE13D28AFBD5352 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C9DC28023D1C93B402D5389E8B44DED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D493004159950833FA996CB89D63008 /* LGPeripheral.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPeripheral.m; path = LGBluetooth/LGPeripheral.m; sourceTree = "<group>"; };
+		7D54F69A9EA2F31DEB6CBE7EF374600F /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		7D60DB2C4426532E375B6A8838C8F7A7 /* Pods-PediatricSensorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PediatricSensorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DD4D45C98C48C71DADA30CAAC39AD57 /* ScrollableGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphView.swift; path = Classes/ScrollableGraphView.swift; sourceTree = "<group>"; };
+		7F87451A291946590E8ACE77BB881534 /* FillDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillDrawingLayer.swift; path = Classes/Drawing/FillDrawingLayer.swift; sourceTree = "<group>"; };
 		8072BA02D86F96B8436D3FE9969E1594 /* Pods-PediatricSensorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PediatricSensorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		818602CC5E114A001B09685A7B96DC6B /* Pods-PediatricSensorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PediatricSensorUITests-umbrella.h"; sourceTree = "<group>"; };
-		829F072495BD53F8941E4E12F85AD431 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		842086E2DACF379CC0B21DC6D3C8C8D6 /* LGPeripheral.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPeripheral.m; path = LGBluetooth/LGPeripheral.m; sourceTree = "<group>"; };
-		8C92E869FB74FE06B1921D9641DC239D /* SwiftyBluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBluetooth-prefix.pch"; sourceTree = "<group>"; };
+		825CAD5A8919C7D02466748643DF0AA9 /* DotDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotDrawingLayer.swift; path = Classes/Drawing/DotDrawingLayer.swift; sourceTree = "<group>"; };
+		845929A60D5B58B06AF97DDF4FDF5C9B /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		84E5DE60BF06744936ECF9BEDD04AFA8 /* ScrollableGraphView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableGraphView-umbrella.h"; sourceTree = "<group>"; };
+		896388DB2AD857DD414793A500ADA3BE /* LGCentralManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGCentralManager.h; path = LGBluetooth/LGCentralManager.h; sourceTree = "<group>"; };
+		89ED8FDE4F063EF5FDFD141BA99EF70D /* LGService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGService.m; path = LGBluetooth/LGService.m; sourceTree = "<group>"; };
+		8DBA054AFE6E37C070636636F84B729E /* SwiftyBluetooth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBluetooth.xcconfig; sourceTree = "<group>"; };
 		8DDC6B3BB8D7C4BA3C40119A2A8D2955 /* Pods-PediatricSensor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PediatricSensor.modulemap"; sourceTree = "<group>"; };
-		93972F6957789C9E8A0EFA25275C82D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9032F9E8A6B741BF3C3E4480137ADA12 /* LGCharacteristic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGCharacteristic.h; path = LGBluetooth/LGCharacteristic.h; sourceTree = "<group>"; };
+		909EF38BF285AFFE7A6BC77FA2FDCABF /* LGBluetooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBluetooth-umbrella.h"; sourceTree = "<group>"; };
+		920C682266628F4032D34A81720F1247 /* CentralProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CentralProxy.swift; path = SwiftyBluetooth/Source/CentralProxy.swift; sourceTree = "<group>"; };
+		9212DFA32528C7A80B5D7AE9ADBEDBC2 /* LGBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGBluetooth.framework; path = LGBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9519215A9D38A1BC0B8F9A2C3A774B29 /* Peripheral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Peripheral.swift; path = SwiftyBluetooth/Source/Peripheral.swift; sourceTree = "<group>"; };
+		93C4DB2473E26C7B904DF1DD43968217 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		95EE40226AFC3651D6224B08D09DF5F0 /* Pods-PediatricSensor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PediatricSensor.debug.xcconfig"; sourceTree = "<group>"; };
-		971E0D13887514E3AE31FE964A8ABAE3 /* SBError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBError.swift; path = SwiftyBluetooth/Source/SBError.swift; sourceTree = "<group>"; };
+		961976531624481FD2FFE72942C99925 /* BarPlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPlot.swift; path = Classes/Plots/BarPlot.swift; sourceTree = "<group>"; };
+		972C23838ED14F8317E46F2A987A1BD1 /* GradientDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientDrawingLayer.swift; path = Classes/Drawing/GradientDrawingLayer.swift; sourceTree = "<group>"; };
 		9737BD0A3EB0D66D2D59CF4D501D8B17 /* Pods-PediatricSensor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PediatricSensor-frameworks.sh"; sourceTree = "<group>"; };
-		98498AF7FEC8EAD26C854BC01F11C6D2 /* LGBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGBluetooth.framework; path = LGBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99260C854C48B6967B1BBE0955A359F0 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		9B20E49DAF1663A4DFA85718CA536215 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		9B579C1437F330D3030BE7D89880B282 /* SwiftyBluetooth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBluetooth.swift; path = SwiftyBluetooth/Source/SwiftyBluetooth.swift; sourceTree = "<group>"; };
-		9B9B4DD7EEE3E4885E48960ED1DCF496 /* SwiftyBluetooth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBluetooth.xcconfig; sourceTree = "<group>"; };
-		9C267C135594D4D6632212FED335ABCC /* LGBluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBluetooth-prefix.pch"; sourceTree = "<group>"; };
+		99B046065E4A03B7CE831EB06FC731B1 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		9CC93767DFD5988FC2B94DA6B8A35F2B /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		A084D4D7FA97FDD354DBD1EAC50E704C /* CBUUIDPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBUUIDPath.swift; path = SwiftyBluetooth/Source/CBUUIDPath.swift; sourceTree = "<group>"; };
+		A0DBE5EA89E1CE7941FF783810AE2AC3 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		A230088DA30F6B5410A756313BAC771C /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = SwiftyBluetooth/Source/Result.swift; sourceTree = "<group>"; };
 		A274817F42A63B043C9079B35B2C47F3 /* Pods-PediatricSensor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PediatricSensor-acknowledgements.plist"; sourceTree = "<group>"; };
 		A40BB73C94C474DDA918FB08B973E6C8 /* Pods-PediatricSensor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PediatricSensor-umbrella.h"; sourceTree = "<group>"; };
-		A75086A6DDA23D8E914F229323CE0494 /* LGCharacteristic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGCharacteristic.m; path = LGBluetooth/LGCharacteristic.m; sourceTree = "<group>"; };
+		A529AF79E1FB512A32502E7CBC878850 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		A912460EE799596B0546AD31CB3F06F5 /* Pods-PediatricSensorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PediatricSensorTests-dummy.m"; sourceTree = "<group>"; };
-		AA2334067E13B6038A98C0DC7E3040F3 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		ACC7110934910F384D97018CF7C99B21 /* CBUUIDPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBUUIDPath.swift; path = SwiftyBluetooth/Source/CBUUIDPath.swift; sourceTree = "<group>"; };
+		A9BAC82AEAA4F72AB36687DD53AAA7F5 /* ScrollableGraphView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollableGraphView.xcconfig; sourceTree = "<group>"; };
+		AA53299D53C3E43239CC89B5CE0A4524 /* ANLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ANLoader.modulemap; sourceTree = "<group>"; };
 		AED4A96C94603DEC91B17419AA62CEDB /* Pods-PediatricSensorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PediatricSensorUITests-frameworks.sh"; sourceTree = "<group>"; };
-		B2D9C764D3A1A649AE0832FB7A90A41D /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		B4A21F5B6C066D91BE4D492C815A6988 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		B704A6E9CAE7BA0CEA88E707D10D73B6 /* LGBluetooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBluetooth-umbrella.h"; sourceTree = "<group>"; };
+		B08C7E8592248A7BE3C1D123CA276993 /* DescriptorValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DescriptorValue.swift; path = SwiftyBluetooth/Source/DescriptorValue.swift; sourceTree = "<group>"; };
+		B29663049F36FD5675ABA1B7BAF9A325 /* CBExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBExtensions.swift; path = SwiftyBluetooth/Source/CBExtensions.swift; sourceTree = "<group>"; };
+		B5D3F7CCEF0A1481A94440E7C0818663 /* LGBluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGBluetooth-dummy.m"; sourceTree = "<group>"; };
+		B6778243BC6F2628291AA221BB86A183 /* Peripheral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Peripheral.swift; path = SwiftyBluetooth/Source/Peripheral.swift; sourceTree = "<group>"; };
+		BA4BB3080439B7A4A0E893827C0C2CB8 /* ScrollableGraphView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScrollableGraphView.framework; path = ScrollableGraphView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7E8AFF5F8A0FD699D346AE056A1BAC /* Pods-PediatricSensorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PediatricSensorUITests-dummy.m"; sourceTree = "<group>"; };
-		BED91070B1FA8FFBA2F3B8ACEF134DFF /* LGCentralManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGCentralManager.h; path = LGBluetooth/LGCentralManager.h; sourceTree = "<group>"; };
+		BD1D0497B6DAFEE7DD3A4938BBECAA18 /* GraphPointAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphPointAnimation.swift; path = Classes/Plots/Animation/GraphPointAnimation.swift; sourceTree = "<group>"; };
 		BFA896E0D5FF4BEBD920C44820BC8075 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C133CA496E6A06D194F9495F475D923B /* Central.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Central.swift; path = SwiftyBluetooth/Source/Central.swift; sourceTree = "<group>"; };
+		C19099A7BFC503C6767EE036337D924C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77DA209D23D13E85CB093BD748815AA /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = SwiftyBluetooth/Source/Util.swift; sourceTree = "<group>"; };
+		C9201B3A0765BF374091BAE31C7A780D /* CBUUIDConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBUUIDConvertible.swift; path = SwiftyBluetooth/Source/CBUUIDConvertible.swift; sourceTree = "<group>"; };
+		CB323891D6FCB470E7D273C991CF8911 /* LGBluetooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LGBluetooth.modulemap; sourceTree = "<group>"; };
 		CC242DB273621D8D618F28ABE69B40DB /* Pods-PediatricSensorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PediatricSensorTests.modulemap"; sourceTree = "<group>"; };
-		CF90BA355B4DF3DD4176BAF0E16D85DC /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		D0C93A46FA35656B31B492CE0E04B7AC /* SwiftyBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBluetooth.framework; path = SwiftyBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2C3F266B456524EEE8F6A564D936FFA /* LGBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGBluetooth.h; path = LGBluetooth/LGBluetooth.h; sourceTree = "<group>"; };
-		D687273D1C8A3CB27CE5406F0AA958D5 /* PeripheralProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeripheralProxy.swift; path = SwiftyBluetooth/Source/PeripheralProxy.swift; sourceTree = "<group>"; };
-		D774D5117861E23189AC8B0EB2F94FB4 /* LGService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGService.h; path = LGBluetooth/LGService.h; sourceTree = "<group>"; };
-		D77821485AC5F833E8718097EEFAA0B1 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		CF9ED42EE82861D12939DAE931A1C87B /* LGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGUtils.h; path = LGBluetooth/LGUtils.h; sourceTree = "<group>"; };
+		CFEFD431DC6E91C165C23F05928C773C /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		D087C6CC2774C34D9F1B130997248E2D /* ANLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANLoader.xcconfig; sourceTree = "<group>"; };
+		D3440F09892A0C1FD079E508BE9DCA96 /* SwiftyBluetooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyBluetooth.modulemap; sourceTree = "<group>"; };
+		D8344A195C7BAFA4D97B921F7C0778E8 /* Plot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plot.swift; path = Classes/Plots/Plot.swift; sourceTree = "<group>"; };
 		D88FA1457DBB292488C3A1B68696E325 /* Pods-PediatricSensorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PediatricSensorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E03B2E0A46FCD999473AA6FEFE3817BA /* Central.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Central.swift; path = SwiftyBluetooth/Source/Central.swift; sourceTree = "<group>"; };
-		E261132B728ECDF782293E7E2BCB3C09 /* LGCharacteristic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGCharacteristic.h; path = LGBluetooth/LGCharacteristic.h; sourceTree = "<group>"; };
-		E626EA4AB052525EB0879C02C4466D69 /* SwiftyBluetooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyBluetooth.modulemap; sourceTree = "<group>"; };
-		EC39E4DADC81875C7406FF254649FA73 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		EC7DAD4FD3EA636F9AFAE8B4BA658A61 /* Pods_PediatricSensorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PediatricSensorTests.framework; path = "Pods-PediatricSensorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8EDF7589FA0A1D5131EC67186F0993E /* ANLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ANLoader.framework; path = ANLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFAD3CF5900BBC5949FBCBEC9A9C649 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		E1A514DFB8DD36EF348C69BCBE9870EA /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		E213261F5105FBD87245FD88CE539B63 /* PeripheralProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeripheralProxy.swift; path = SwiftyBluetooth/Source/PeripheralProxy.swift; sourceTree = "<group>"; };
+		E854A61E8972E1C89EFA122C63284BAD /* ReferenceLines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceLines.swift; path = Classes/Reference/ReferenceLines.swift; sourceTree = "<group>"; };
+		E8E93BBA8D4612DF8DF02E5D9B05181C /* SwiftyBluetooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBluetooth-umbrella.h"; sourceTree = "<group>"; };
 		ECA9BEC565EACFC027AAC443193C206A /* Pods-PediatricSensor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PediatricSensor-resources.sh"; sourceTree = "<group>"; };
-		F27E875519F247B68317CB76C3D2D8CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F50B99FD8BB9479BFBFF1EF7C32F9611 /* LGPeripheral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPeripheral.h; path = LGBluetooth/LGPeripheral.h; sourceTree = "<group>"; };
-		F90F0FF611E078D078F72549D3B1D75C /* LGService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGService.m; path = LGBluetooth/LGService.m; sourceTree = "<group>"; };
+		ECC5222A56C7D9AC4CBFE294576C9001 /* LGUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGUtils.m; path = LGBluetooth/LGUtils.m; sourceTree = "<group>"; };
+		EDCD2DD35344DCB17B4B2B3EE6EB90F7 /* Pods_PediatricSensorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PediatricSensorUITests.framework; path = "Pods-PediatricSensorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F058B90FD960D575B8502F6A858CFF4E /* ReferenceLineDrawingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceLineDrawingView.swift; path = Classes/Drawing/ReferenceLineDrawingView.swift; sourceTree = "<group>"; };
+		F07428D152113912197D0BE74DBC4A69 /* SwiftyBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBluetooth.framework; path = SwiftyBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08A7EA0BBD86B2CF0154015708D41AF /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		F330CE5EB0205B0CC11E5B83C216DA44 /* ScrollableGraphViewDrawingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDrawingDelegate.swift; path = Classes/Protocols/ScrollableGraphViewDrawingDelegate.swift; sourceTree = "<group>"; };
+		F67B1669605A19CB9DB76A6002B86D26 /* SwiftyBluetooth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBluetooth.swift; path = SwiftyBluetooth/Source/SwiftyBluetooth.swift; sourceTree = "<group>"; };
+		F7DACD4D03E4B2EFC174E22AB17ED82D /* BarDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarDrawingLayer.swift; path = Classes/Drawing/BarDrawingLayer.swift; sourceTree = "<group>"; };
+		FDE1DD143EE9B30EA955DA344E567B00 /* Pods_PediatricSensorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PediatricSensorTests.framework; path = "Pods-PediatricSensorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA1A4C55C4E7280B79CA1E035867647 /* SwiftyBluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBluetooth-prefix.pch"; sourceTree = "<group>"; };
+		FFF04CF9FFB2F10821AA0ED732CD5023 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0718AE9B1575990745BE96BD2F810BF8 /* Frameworks */ = {
+		124AE26F16E08326B9C6B77D9DD6FE71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11A523C085158595EE1B463B0E57E811 /* Foundation.framework in Frameworks */,
+				D12DDF331ABA961B210550D2CA8A10B3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,11 +287,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7285DBD93DF90F3FEDAAEAE319C6BAF1 /* Frameworks */ = {
+		5313A1784AD3D49EEFAD0BFA878C0345 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B58AC34DF81DC64F818788B2E95ED62C /* Foundation.framework in Frameworks */,
+				DCD6329305AC60B8CF523E8E5C79B067 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615F26654D6D5746410EADBC91617E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D949EA8D557950D692EF9246CC4780B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705D27C289B8D1CF5D8C99800166D2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35EC74F7E2D385261C0E2831A927CA0 /* Foundation.framework in Frameworks */,
+				3CE59BF240F475D675DA0E68DB4B0C14 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,26 +340,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		419B9D7C87E851805132F4F5BB7D1610 /* Support Files */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1E05CA96053B163C13AC22D3BA579A82 /* Alamofire.modulemap */,
-				99260C854C48B6967B1BBE0955A359F0 /* Alamofire.xcconfig */,
-				5F15BB524FD7FA4A8C65E8C794337696 /* Alamofire-dummy.m */,
-				B2D9C764D3A1A649AE0832FB7A90A41D /* Alamofire-prefix.pch */,
-				9B20E49DAF1663A4DFA85718CA536215 /* Alamofire-umbrella.h */,
-				7C9DC28023D1C93B402D5389E8B44DED /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				708A1C830C0E998469D92C7BA82C2290 /* iOS */,
+				CD5FF2A6272614E8971C852B9277A4D0 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BF1723E0CE96C500070940A9AEE8BDD /* ANLoader */ = {
+			isa = PBXGroup;
+			children = (
+				10EB0295D6C7168CD6FCF4F9BF5A2FBB /* ANLoader.swift */,
+				BBE1B1E4D5E89DC31A13157956F94519 /* Support Files */,
+			);
+			name = ANLoader;
+			path = ANLoader;
+			sourceTree = "<group>";
+		};
+		3F7CCEC63F8EFAF6003A4BE6008F0443 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09BC84FBDBA4C82F949111B80B1AC7EB /* Info.plist */,
+				CB323891D6FCB470E7D273C991CF8911 /* LGBluetooth.modulemap */,
+				4A8DC810486520EB5F1BC089BD148DED /* LGBluetooth.xcconfig */,
+				B5D3F7CCEF0A1481A94440E7C0818663 /* LGBluetooth-dummy.m */,
+				7171A11FEC77B63E4AF6ACA21A656C3D /* LGBluetooth-prefix.pch */,
+				909EF38BF285AFFE7A6BC77FA2FDCABF /* LGBluetooth-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LGBluetooth";
+			sourceTree = "<group>";
+		};
+		4C64D115ECEF43D3CA98FBB3265C17DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99568F5E0DA917B06EDBE22A1F40AF12 /* Alamofire */,
+				1BF1723E0CE96C500070940A9AEE8BDD /* ANLoader */,
+				7A2EEAF9DF8E85A7966C9837B1A90BFC /* LGBluetooth */,
+				AAC726702C6B693B2581B72536B12E38 /* ScrollableGraphView */,
+				A48FED8DBC39464CDA216F0F19EF923A /* SwiftyBluetooth */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5191D879BC592DCF2BE35A7FDB3706AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2802879973741D4732BD250E69E98C46 /* Info.plist */,
+				D3440F09892A0C1FD079E508BE9DCA96 /* SwiftyBluetooth.modulemap */,
+				8DBA054AFE6E37C070636636F84B729E /* SwiftyBluetooth.xcconfig */,
+				75F83DA997C92CCF6D81ABDE70E2DC73 /* SwiftyBluetooth-dummy.m */,
+				FEA1A4C55C4E7280B79CA1E035867647 /* SwiftyBluetooth-prefix.pch */,
+				E8E93BBA8D4612DF8DF02E5D9B05181C /* SwiftyBluetooth-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyBluetooth";
 			sourceTree = "<group>";
 		};
 		5A3AFC450C9209513322AD97D4AEF72E /* Pods-PediatricSensorUITests */ = {
@@ -289,6 +416,20 @@
 			path = "Target Support Files/Pods-PediatricSensorUITests";
 			sourceTree = "<group>";
 		};
+		6619F5DDB01C21811F87FAFE70AF82EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6338F06810A5DEBAFFF6D86D588287F4 /* Info.plist */,
+				0BDDCF20190C26A7250A505A2BDE6548 /* ScrollableGraphView.modulemap */,
+				A9BAC82AEAA4F72AB36687DD53AAA7F5 /* ScrollableGraphView.xcconfig */,
+				6C01A07A763EFB228B0011B1C60745E0 /* ScrollableGraphView-dummy.m */,
+				518852E9AECCB534BB6C03B4EB47AF96 /* ScrollableGraphView-prefix.pch */,
+				84E5DE60BF06744936ECF9BEDD04AFA8 /* ScrollableGraphView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ScrollableGraphView";
+			sourceTree = "<group>";
+		};
 		6D38A55F96BB3E4F8695C4AEE2DEC810 /* Pods-PediatricSensorTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,15 +446,6 @@
 			);
 			name = "Pods-PediatricSensorTests";
 			path = "Target Support Files/Pods-PediatricSensorTests";
-			sourceTree = "<group>";
-		};
-		708A1C830C0E998469D92C7BA82C2290 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1EA00AEA27063E54337CB3252DEA73FF /* CoreBluetooth.framework */,
-				93972F6957789C9E8A0EFA25275C82D1 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		73C47E54C1395B7067173D041C86477E /* Pods-PediatricSensor */ = {
@@ -344,135 +476,164 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		79D3A7163E4B05E23D9E20BAA81576A4 /* SwiftyBluetooth */ = {
+		7A2EEAF9DF8E85A7966C9837B1A90BFC /* LGBluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				65ADEE7B8A4083D618F5A3ED47B552E6 /* CBExtensions.swift */,
-				1FFABFB9F6F71879C1C992FA4E8984B8 /* CBUUIDConvertible.swift */,
-				ACC7110934910F384D97018CF7C99B21 /* CBUUIDPath.swift */,
-				E03B2E0A46FCD999473AA6FEFE3817BA /* Central.swift */,
-				4410BFCA875DD5E002CA751D58ADACB9 /* CentralProxy.swift */,
-				1129BFB6DDDAD1988EC68DDCFE7C6D22 /* DescriptorValue.swift */,
-				9519215A9D38A1BC0B8F9A2C3A774B29 /* Peripheral.swift */,
-				D687273D1C8A3CB27CE5406F0AA958D5 /* PeripheralProxy.swift */,
-				6B675C2805EFC6AFA8A22462B9DF8075 /* Result.swift */,
-				971E0D13887514E3AE31FE964A8ABAE3 /* SBError.swift */,
-				9B579C1437F330D3030BE7D89880B282 /* SwiftyBluetooth.swift */,
-				7971D0FBD73289D3FA5308D44DDFD45A /* Util.swift */,
-				BF736F6669B08F7BA977F1CEDA4510C6 /* Support Files */,
+				599D9605818C0165072A9D5DFBE7628D /* CBUUID+StringExtraction.h */,
+				792377BC4996CF434B73C3763BB105F0 /* CBUUID+StringExtraction.m */,
+				5D03D1A49EAD82E5B5CBC3DA44FCE984 /* LGBluetooth.h */,
+				896388DB2AD857DD414793A500ADA3BE /* LGCentralManager.h */,
+				76FC43A55E43B515C39BF692B3B43933 /* LGCentralManager.m */,
+				9032F9E8A6B741BF3C3E4480137ADA12 /* LGCharacteristic.h */,
+				4B8315B0494E61378F97F0F54790A54A /* LGCharacteristic.m */,
+				1855AD87C4E6138EB4142EB778953132 /* LGPeripheral.h */,
+				7D493004159950833FA996CB89D63008 /* LGPeripheral.m */,
+				0B427AF1CD5E05195E0A19EE1AD064F7 /* LGService.h */,
+				89ED8FDE4F063EF5FDFD141BA99EF70D /* LGService.m */,
+				CF9ED42EE82861D12939DAE931A1C87B /* LGUtils.h */,
+				ECC5222A56C7D9AC4CBFE294576C9001 /* LGUtils.m */,
+				3F7CCEC63F8EFAF6003A4BE6008F0443 /* Support Files */,
 			);
-			name = SwiftyBluetooth;
-			path = SwiftyBluetooth;
+			name = LGBluetooth;
+			path = LGBluetooth;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				BE89805F7AAA56B9F173A5292E0BA3F8 /* Pods */,
-				7FF692E469EC89318A487BC7124E2136 /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				4C64D115ECEF43D3CA98FBB3265C17DF /* Pods */,
+				BBF6FEAF79A1D1F972FF1F84A3F1FBF3 /* Products */,
 				74245120DE3EDDD2C1D22D447D59568F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7FF692E469EC89318A487BC7124E2136 /* Products */ = {
+		99568F5E0DA917B06EDBE22A1F40AF12 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				1564A12A90D42F81898727D6ED1FD6FD /* Alamofire.framework */,
-				98498AF7FEC8EAD26C854BC01F11C6D2 /* LGBluetooth.framework */,
-				0D7878DBBA55E263CCAE1B5AE5678573 /* Pods_PediatricSensor.framework */,
-				EC7DAD4FD3EA636F9AFAE8B4BA658A61 /* Pods_PediatricSensorTests.framework */,
-				1F447E5CA857F3CEF6AE3B3CF08B5665 /* Pods_PediatricSensorUITests.framework */,
-				D0C93A46FA35656B31B492CE0E04B7AC /* SwiftyBluetooth.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		AAB17CA24B9AB3963EA3E1FB09752960 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				CF90BA355B4DF3DD4176BAF0E16D85DC /* AFError.swift */,
-				6A0CC07093248E42C3D7D1169296A63E /* Alamofire.swift */,
-				3CA2BE696708FD782A3DA8965FD49E28 /* DispatchQueue+Alamofire.swift */,
-				4D2016910D97640993ACF3C43990A3A2 /* MultipartFormData.swift */,
-				2DC1CA7918BC018AADE445BE1C6D4012 /* NetworkReachabilityManager.swift */,
-				B4A21F5B6C066D91BE4D492C815A6988 /* Notifications.swift */,
-				4D9F3FE7C1C2E41FDD4F81139AC6A30E /* ParameterEncoding.swift */,
-				AA2334067E13B6038A98C0DC7E3040F3 /* Request.swift */,
-				4A2DA581AB38933B519B9420BF5D58E3 /* Response.swift */,
-				5C1180919243496C00E8A4120AAD44B5 /* ResponseSerialization.swift */,
-				EC39E4DADC81875C7406FF254649FA73 /* Result.swift */,
-				4706C34A5B1FC88493DB09E231F5365D /* ServerTrustPolicy.swift */,
-				302F98DF4A3CE6C16BFECE0CE8908E3F /* SessionDelegate.swift */,
-				3FB65BC4A1F947C299AD0FC99F53A2D9 /* SessionManager.swift */,
-				829F072495BD53F8941E4E12F85AD431 /* TaskDelegate.swift */,
-				D77821485AC5F833E8718097EEFAA0B1 /* Timeline.swift */,
-				7B4B05042C889AF4371D6187EF436D08 /* Validation.swift */,
-				419B9D7C87E851805132F4F5BB7D1610 /* Support Files */,
+				CFEFD431DC6E91C165C23F05928C773C /* AFError.swift */,
+				2FA687CCA367EFFE076D69AAAE59171E /* Alamofire.swift */,
+				E1A514DFB8DD36EF348C69BCBE9870EA /* DispatchQueue+Alamofire.swift */,
+				A0DBE5EA89E1CE7941FF783810AE2AC3 /* MultipartFormData.swift */,
+				3B9665409F3DBF9F10985EAB97D5E87B /* NetworkReachabilityManager.swift */,
+				2F23266CDFEBA47CFF3AB3435CB214E7 /* Notifications.swift */,
+				7D54F69A9EA2F31DEB6CBE7EF374600F /* ParameterEncoding.swift */,
+				23A3F504503ED151A16984C9DD064A58 /* Request.swift */,
+				747160A0E1A34DB511DBB2C23AF28980 /* Response.swift */,
+				635E8ED62F9213B3264AD8699AE779C0 /* ResponseSerialization.swift */,
+				845929A60D5B58B06AF97DDF4FDF5C9B /* Result.swift */,
+				1ABA0715C904543746CF0FD2325B2719 /* ServerTrustPolicy.swift */,
+				1459EC028168BE1A220F2A8FC595ACB3 /* SessionDelegate.swift */,
+				11AF6BE4BC2C0F0034F205EB1B9258B5 /* SessionManager.swift */,
+				9CC93767DFD5988FC2B94DA6B8A35F2B /* TaskDelegate.swift */,
+				F08A7EA0BBD86B2CF0154015708D41AF /* Timeline.swift */,
+				FFF04CF9FFB2F10821AA0ED732CD5023 /* Validation.swift */,
+				9BBAF567330413482B4E5813F15AB484 /* Support Files */,
 			);
 			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		BE89805F7AAA56B9F173A5292E0BA3F8 /* Pods */ = {
+		9BBAF567330413482B4E5813F15AB484 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AAB17CA24B9AB3963EA3E1FB09752960 /* Alamofire */,
-				F6D823A3FD7A4F51108EC3A60C43EA26 /* LGBluetooth */,
-				79D3A7163E4B05E23D9E20BAA81576A4 /* SwiftyBluetooth */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BF736F6669B08F7BA977F1CEDA4510C6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F27E875519F247B68317CB76C3D2D8CA /* Info.plist */,
-				E626EA4AB052525EB0879C02C4466D69 /* SwiftyBluetooth.modulemap */,
-				9B9B4DD7EEE3E4885E48960ED1DCF496 /* SwiftyBluetooth.xcconfig */,
-				483C115F3DD81E6982394D9610AB9705 /* SwiftyBluetooth-dummy.m */,
-				8C92E869FB74FE06B1921D9641DC239D /* SwiftyBluetooth-prefix.pch */,
-				506CD630A79D1472D739535D6C028E60 /* SwiftyBluetooth-umbrella.h */,
+				99B046065E4A03B7CE831EB06FC731B1 /* Alamofire.modulemap */,
+				DBFAD3CF5900BBC5949FBCBEC9A9C649 /* Alamofire.xcconfig */,
+				6ED925C90463E2294140FB014663C01D /* Alamofire-dummy.m */,
+				A529AF79E1FB512A32502E7CBC878850 /* Alamofire-prefix.pch */,
+				61E039DDA27EC20FEA72D8DB33301BCA /* Alamofire-umbrella.h */,
+				C19099A7BFC503C6767EE036337D924C /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwiftyBluetooth";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		CCF1BD21C3B0F00755555734E2CF4B38 /* Support Files */ = {
+		A48FED8DBC39464CDA216F0F19EF923A /* SwiftyBluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				7B7494128F689925ABE13D28AFBD5352 /* Info.plist */,
-				757A24C1F06CD77F2E45FF3E8ED0DED1 /* LGBluetooth.modulemap */,
-				1BABC1B815D3B8AAA7B695EFCF7E0750 /* LGBluetooth.xcconfig */,
-				21D0C3157DF797ABDCEC56271812CE50 /* LGBluetooth-dummy.m */,
-				9C267C135594D4D6632212FED335ABCC /* LGBluetooth-prefix.pch */,
-				B704A6E9CAE7BA0CEA88E707D10D73B6 /* LGBluetooth-umbrella.h */,
+				B29663049F36FD5675ABA1B7BAF9A325 /* CBExtensions.swift */,
+				C9201B3A0765BF374091BAE31C7A780D /* CBUUIDConvertible.swift */,
+				A084D4D7FA97FDD354DBD1EAC50E704C /* CBUUIDPath.swift */,
+				C133CA496E6A06D194F9495F475D923B /* Central.swift */,
+				920C682266628F4032D34A81720F1247 /* CentralProxy.swift */,
+				B08C7E8592248A7BE3C1D123CA276993 /* DescriptorValue.swift */,
+				B6778243BC6F2628291AA221BB86A183 /* Peripheral.swift */,
+				E213261F5105FBD87245FD88CE539B63 /* PeripheralProxy.swift */,
+				A230088DA30F6B5410A756313BAC771C /* Result.swift */,
+				48D85B50840B293B9C105D08B9143A43 /* SBError.swift */,
+				F67B1669605A19CB9DB76A6002B86D26 /* SwiftyBluetooth.swift */,
+				C77DA209D23D13E85CB093BD748815AA /* Util.swift */,
+				5191D879BC592DCF2BE35A7FDB3706AE /* Support Files */,
+			);
+			name = SwiftyBluetooth;
+			path = SwiftyBluetooth;
+			sourceTree = "<group>";
+		};
+		AAC726702C6B693B2581B72536B12E38 /* ScrollableGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				F7DACD4D03E4B2EFC174E22AB17ED82D /* BarDrawingLayer.swift */,
+				961976531624481FD2FFE72942C99925 /* BarPlot.swift */,
+				825CAD5A8919C7D02466748643DF0AA9 /* DotDrawingLayer.swift */,
+				3353D2207E34B1A31BBACE5D50C315A4 /* DotPlot.swift */,
+				7F87451A291946590E8ACE77BB881534 /* FillDrawingLayer.swift */,
+				972C23838ED14F8317E46F2A987A1BD1 /* GradientDrawingLayer.swift */,
+				5A3E1A69D93B55F0A4E15E2C226B82BE /* GraphPoint.swift */,
+				BD1D0497B6DAFEE7DD3A4938BBECAA18 /* GraphPointAnimation.swift */,
+				12F20378B45782BA68F786157613C11D /* LabelPool.swift */,
+				3B1EDEE17FB755EA25DCFD0EDB45C373 /* LineDrawingLayer.swift */,
+				6BF2295A1AB91BAC67E4F3D7271D3785 /* LinePlot.swift */,
+				D8344A195C7BAFA4D97B921F7C0778E8 /* Plot.swift */,
+				F058B90FD960D575B8502F6A858CFF4E /* ReferenceLineDrawingView.swift */,
+				E854A61E8972E1C89EFA122C63284BAD /* ReferenceLines.swift */,
+				7DD4D45C98C48C71DADA30CAAC39AD57 /* ScrollableGraphView.swift */,
+				57D44FF90B3348231E1BDAC0E763388C /* ScrollableGraphViewDataSource.swift */,
+				F330CE5EB0205B0CC11E5B83C216DA44 /* ScrollableGraphViewDrawingDelegate.swift */,
+				5F19F33AA3C2EAEB9414938BB6939190 /* ScrollableGraphViewDrawingLayer.swift */,
+				6619F5DDB01C21811F87FAFE70AF82EF /* Support Files */,
+			);
+			name = ScrollableGraphView;
+			path = ScrollableGraphView;
+			sourceTree = "<group>";
+		};
+		BBE1B1E4D5E89DC31A13157956F94519 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA53299D53C3E43239CC89B5CE0A4524 /* ANLoader.modulemap */,
+				D087C6CC2774C34D9F1B130997248E2D /* ANLoader.xcconfig */,
+				5BDAAF1D28AD6C164B438F0D81B55FC8 /* ANLoader-dummy.m */,
+				56667175AA1CEA097B08E9C29BB2DE77 /* ANLoader-prefix.pch */,
+				46C8A4A331B681DEE873C5A5D61AE27A /* ANLoader-umbrella.h */,
+				0C0F74B50C31BBE2B7758A4F65D0E993 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/LGBluetooth";
+			path = "../Target Support Files/ANLoader";
 			sourceTree = "<group>";
 		};
-		F6D823A3FD7A4F51108EC3A60C43EA26 /* LGBluetooth */ = {
+		BBF6FEAF79A1D1F972FF1F84A3F1FBF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63EBDA545C86169D06845972A3B3AC1E /* CBUUID+StringExtraction.h */,
-				752E65657CA994A25F517264AFA4D5C2 /* CBUUID+StringExtraction.m */,
-				D2C3F266B456524EEE8F6A564D936FFA /* LGBluetooth.h */,
-				BED91070B1FA8FFBA2F3B8ACEF134DFF /* LGCentralManager.h */,
-				53AEA0D477FC6193AC63E5B9DAD95E4D /* LGCentralManager.m */,
-				E261132B728ECDF782293E7E2BCB3C09 /* LGCharacteristic.h */,
-				A75086A6DDA23D8E914F229323CE0494 /* LGCharacteristic.m */,
-				F50B99FD8BB9479BFBFF1EF7C32F9611 /* LGPeripheral.h */,
-				842086E2DACF379CC0B21DC6D3C8C8D6 /* LGPeripheral.m */,
-				D774D5117861E23189AC8B0EB2F94FB4 /* LGService.h */,
-				F90F0FF611E078D078F72549D3B1D75C /* LGService.m */,
-				104C4AB5B83FEDC5593EC3C6E7036CBF /* LGUtils.h */,
-				64EDA54172EED81ADC6093B8EB709CBA /* LGUtils.m */,
-				CCF1BD21C3B0F00755555734E2CF4B38 /* Support Files */,
+				065A629E49A18467C945C5A612EFA31F /* Alamofire.framework */,
+				D8EDF7589FA0A1D5131EC67186F0993E /* ANLoader.framework */,
+				9212DFA32528C7A80B5D7AE9ADBEDBC2 /* LGBluetooth.framework */,
+				09481A177C0C4AB8846323ED24374451 /* Pods_PediatricSensor.framework */,
+				FDE1DD143EE9B30EA955DA344E567B00 /* Pods_PediatricSensorTests.framework */,
+				EDCD2DD35344DCB17B4B2B3EE6EB90F7 /* Pods_PediatricSensorUITests.framework */,
+				BA4BB3080439B7A4A0E893827C0C2CB8 /* ScrollableGraphView.framework */,
+				F07428D152113912197D0BE74DBC4A69 /* SwiftyBluetooth.framework */,
 			);
-			name = LGBluetooth;
-			path = LGBluetooth;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD5FF2A6272614E8971C852B9277A4D0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5CD2BE03D5DF4F1A15D4B4E9B19EA1D5 /* CoreBluetooth.framework */,
+				5989C451E6E368AF1F3A30D5A91D420C /* Foundation.framework */,
+				93C4DB2473E26C7B904DF1DD43968217 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -490,6 +651,38 @@
 				0D3149FDC43C4581DB1EADB8065D9B79 /* LGPeripheral.h in Headers */,
 				8C4D4991228AD931D9853499452054EA /* LGService.h in Headers */,
 				80675B98FB141098FBB0D6CC83EFDC77 /* LGUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3338D327ECC32C79ACB43638D547CABB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEAD847917492EAC99D95F9CEAA144E /* ANLoader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656A99EF16D229D1769412D131ABCC14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD3E29B4121F0C0C5915933EF3B41AC /* SwiftyBluetooth-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7465A9AE8FE86FF6B3D80274A5ECA122 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32851B85D5A718A0E1169D41FC82D4A4 /* Pods-PediatricSensor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F97CF8C0AC7DC25BCC78A177CC6A3AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE49E7DC88844B86BA63A94A83FC7F26 /* ScrollableGraphView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,45 +710,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED98D29876275756F8EC7740509DBF27 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39E2EF16B7289F23C1E7EB437DA5AF2F /* SwiftyBluetooth-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD7196D487BF61A3409A97CBE7C718AC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1E7F75D6EC2D282B17AE230A7369243 /* Pods-PediatricSensor-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		05700BDCF11618038D492668541F822D /* Pods-PediatricSensor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2362146D046331F0B3D2202EE0E0BFDC /* Build configuration list for PBXNativeTarget "Pods-PediatricSensor" */;
-			buildPhases = (
-				BA573B948B1D3E884D607CEEDE1F4538 /* Sources */,
-				7285DBD93DF90F3FEDAAEAE319C6BAF1 /* Frameworks */,
-				FD7196D487BF61A3409A97CBE7C718AC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				878692631EBFED9F1CA8FB27CE5492E4 /* PBXTargetDependency */,
-				77511D7FF66FA63DDD258184B20C7830 /* PBXTargetDependency */,
-				A83AF917957413563A757C3BE9306967 /* PBXTargetDependency */,
-			);
-			name = "Pods-PediatricSensor";
-			productName = "Pods-PediatricSensor";
-			productReference = 0D7878DBBA55E263CCAE1B5AE5678573 /* Pods_PediatricSensor.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		0BAECEDF8F1B187BB44AB27637CEFF90 /* LGBluetooth */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6F246EDBA04BE2290323962B183A7ED /* Build configuration list for PBXNativeTarget "LGBluetooth" */;
@@ -570,7 +727,7 @@
 			);
 			name = LGBluetooth;
 			productName = LGBluetooth;
-			productReference = 98498AF7FEC8EAD26C854BC01F11C6D2 /* LGBluetooth.framework */;
+			productReference = 9212DFA32528C7A80B5D7AE9ADBEDBC2 /* LGBluetooth.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1E14404E800CFD2BFB9EEEF0D48C268E /* Pods-PediatricSensorUITests */ = {
@@ -587,7 +744,29 @@
 			);
 			name = "Pods-PediatricSensorUITests";
 			productName = "Pods-PediatricSensorUITests";
-			productReference = 1F447E5CA857F3CEF6AE3B3CF08B5665 /* Pods_PediatricSensorUITests.framework */;
+			productReference = EDCD2DD35344DCB17B4B2B3EE6EB90F7 /* Pods_PediatricSensorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		34E6839DE1D624124413AE32AAB8119F /* Pods-PediatricSensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0869B43CBA3AA5675D2924AA0275D914 /* Build configuration list for PBXNativeTarget "Pods-PediatricSensor" */;
+			buildPhases = (
+				46FD0691FA931BC9FA08EF6774E63FFF /* Sources */,
+				5313A1784AD3D49EEFAD0BFA878C0345 /* Frameworks */,
+				7465A9AE8FE86FF6B3D80274A5ECA122 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F7C7CAD904D32B45CAE43043AFB969 /* PBXTargetDependency */,
+				BA523A98B1F8DBEDE66D267700FD5C1A /* PBXTargetDependency */,
+				B7C89FEE4BDB4CDD64302FB1EFF495EA /* PBXTargetDependency */,
+				2B70CEA88AF18F44C9D8DA786737758A /* PBXTargetDependency */,
+				956311CDE7875C005D6372920B78E2F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-PediatricSensor";
+			productName = "Pods-PediatricSensor";
+			productReference = 09481A177C0C4AB8846323ED24374451 /* Pods_PediatricSensor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		689E8A9CAB125DD6EC0815982E617A8F /* Pods-PediatricSensorTests */ = {
@@ -604,7 +783,24 @@
 			);
 			name = "Pods-PediatricSensorTests";
 			productName = "Pods-PediatricSensorTests";
-			productReference = EC7DAD4FD3EA636F9AFAE8B4BA658A61 /* Pods_PediatricSensorTests.framework */;
+			productReference = FDE1DD143EE9B30EA955DA344E567B00 /* Pods_PediatricSensorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D84F94F2DD35AE079674FAFC7CD3566 /* SwiftyBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1C0E02C256B1B67C154764FAEE2E26 /* Build configuration list for PBXNativeTarget "SwiftyBluetooth" */;
+			buildPhases = (
+				D17C873F1186CEE83DF5B31D3C323B23 /* Sources */,
+				124AE26F16E08326B9C6B77D9DD6FE71 /* Frameworks */,
+				656A99EF16D229D1769412D131ABCC14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyBluetooth;
+			productName = SwiftyBluetooth;
+			productReference = F07428D152113912197D0BE74DBC4A69 /* SwiftyBluetooth.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -621,24 +817,41 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 1564A12A90D42F81898727D6ED1FD6FD /* Alamofire.framework */;
+			productReference = 065A629E49A18467C945C5A612EFA31F /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		ADACE3043D5582BBD2E28E4DBA43B1E1 /* SwiftyBluetooth */ = {
+		9CE57E025349EFDD992F790715F78FD4 /* ANLoader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DFE0F60A729E48800E5DC0EB7422950 /* Build configuration list for PBXNativeTarget "SwiftyBluetooth" */;
+			buildConfigurationList = D18F43169D668405F2D6DE3AE8C468E8 /* Build configuration list for PBXNativeTarget "ANLoader" */;
 			buildPhases = (
-				3714EE74C9FB6DC94BC26F873AC1D440 /* Sources */,
-				0718AE9B1575990745BE96BD2F810BF8 /* Frameworks */,
-				ED98D29876275756F8EC7740509DBF27 /* Headers */,
+				B864BD8CF9436D9DCC54A65E8F4FA9B2 /* Sources */,
+				705D27C289B8D1CF5D8C99800166D2C3 /* Frameworks */,
+				3338D327ECC32C79ACB43638D547CABB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftyBluetooth;
-			productName = SwiftyBluetooth;
-			productReference = D0C93A46FA35656B31B492CE0E04B7AC /* SwiftyBluetooth.framework */;
+			name = ANLoader;
+			productName = ANLoader;
+			productReference = D8EDF7589FA0A1D5131EC67186F0993E /* ANLoader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD8F5CBDB438D57996A209CDE7AF7B18 /* ScrollableGraphView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C8BF08EB56AF8843176A747175820E /* Build configuration list for PBXNativeTarget "ScrollableGraphView" */;
+			buildPhases = (
+				D8379C5F9D571C649CF51EB2F337BC45 /* Sources */,
+				615F26654D6D5746410EADBC91617E13 /* Frameworks */,
+				9F97CF8C0AC7DC25BCC78A177CC6A3AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollableGraphView;
+			productName = ScrollableGraphView;
+			productReference = BA4BB3080439B7A4A0E893827C0C2CB8 /* ScrollableGraphView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -658,16 +871,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7FF692E469EC89318A487BC7124E2136 /* Products */;
+			productRefGroup = BBF6FEAF79A1D1F972FF1F84A3F1FBF3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				9CE57E025349EFDD992F790715F78FD4 /* ANLoader */,
 				0BAECEDF8F1B187BB44AB27637CEFF90 /* LGBluetooth */,
-				05700BDCF11618038D492668541F822D /* Pods-PediatricSensor */,
+				34E6839DE1D624124413AE32AAB8119F /* Pods-PediatricSensor */,
 				689E8A9CAB125DD6EC0815982E617A8F /* Pods-PediatricSensorTests */,
 				1E14404E800CFD2BFB9EEEF0D48C268E /* Pods-PediatricSensorUITests */,
-				ADACE3043D5582BBD2E28E4DBA43B1E1 /* SwiftyBluetooth */,
+				FD8F5CBDB438D57996A209CDE7AF7B18 /* ScrollableGraphView */,
+				6D84F94F2DD35AE079674FAFC7CD3566 /* SwiftyBluetooth */,
 			);
 		};
 /* End PBXProject section */
@@ -698,23 +913,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3714EE74C9FB6DC94BC26F873AC1D440 /* Sources */ = {
+		46FD0691FA931BC9FA08EF6774E63FFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDFBD83DB9E09AF5D6331D804B712CB6 /* CBExtensions.swift in Sources */,
-				C4BC5527ECB8A6AB98569F315ED50CDA /* CBUUIDConvertible.swift in Sources */,
-				5928DBF7E9E39A30B4225AFA253CED2C /* CBUUIDPath.swift in Sources */,
-				BC2578E24BF33C7E97DC6E32AFF8A705 /* Central.swift in Sources */,
-				E5AF0C76A23BC2AEFDA412BEEF30632A /* CentralProxy.swift in Sources */,
-				DC26133FD45F3C6EAEE02B70488AD488 /* DescriptorValue.swift in Sources */,
-				39F9DA95EDAAC83B82188FBE804BC8DF /* Peripheral.swift in Sources */,
-				D96A6E492B9DADFBD6C453211713207F /* PeripheralProxy.swift in Sources */,
-				906643A625DF12CAB5234D6476E64445 /* Result.swift in Sources */,
-				FC15C4F6A8A625167350B75B2F2F08A0 /* SBError.swift in Sources */,
-				47960557B7E7C4D07D8975AE738CBA83 /* SwiftyBluetooth-dummy.m in Sources */,
-				0FC4AEBD2B9C6906FF8DA7710AB11421 /* SwiftyBluetooth.swift in Sources */,
-				078CAB007123F1BF28BFF3DF688C6771 /* Util.swift in Sources */,
+				D9EDBBE21E23162DD8D4C354CACFA562 /* Pods-PediatricSensor-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,34 +951,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA573B948B1D3E884D607CEEDE1F4538 /* Sources */ = {
+		B864BD8CF9436D9DCC54A65E8F4FA9B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833080D57D6C0DD9CF91215B4B7C05E2 /* Pods-PediatricSensor-dummy.m in Sources */,
+				C1AAF4A1A4E24A4A2DD0901BA311DC4D /* ANLoader-dummy.m in Sources */,
+				7A013EF780FD7D97FFC78CE0CC94680D /* ANLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17C873F1186CEE83DF5B31D3C323B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C18D2EE86433424627E35DA769060E /* CBExtensions.swift in Sources */,
+				848A88A29C7DD69D0DBAEFDA425435E5 /* CBUUIDConvertible.swift in Sources */,
+				50FCE35E02DC2E89A90B164C01624FC7 /* CBUUIDPath.swift in Sources */,
+				48DE745350292ACC99891C730CD01BCE /* Central.swift in Sources */,
+				301BA37255ADDA90D207E12F3CF8CDA7 /* CentralProxy.swift in Sources */,
+				77276B1D75CC7B484967B9A93F418E96 /* DescriptorValue.swift in Sources */,
+				E410A6FE0460C8ECF588B0AB7990BE2C /* Peripheral.swift in Sources */,
+				B607467652038D65AC00A3CFDC8A547E /* PeripheralProxy.swift in Sources */,
+				C2C88E8AABDA76363449EFAB7C632024 /* Result.swift in Sources */,
+				A3E0F3CFCA063A1DDC98DD1E215BA62A /* SBError.swift in Sources */,
+				3DAE400303684F06C1DC4CD47182B130 /* SwiftyBluetooth-dummy.m in Sources */,
+				F0639C0068707D3ABAE41A7EC2CDF31C /* SwiftyBluetooth.swift in Sources */,
+				A61BF87856174B477A12D7AB7D9808FB /* Util.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8379C5F9D571C649CF51EB2F337BC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0952D42B95D13B07697AECA75377D9F /* BarDrawingLayer.swift in Sources */,
+				D8298FE16019BC0FBC5751060FE46E0B /* BarPlot.swift in Sources */,
+				A1B9E38A6965BE01751E907858FC6760 /* DotDrawingLayer.swift in Sources */,
+				FC2EE1C74003F7BB2639A96B5C6107E3 /* DotPlot.swift in Sources */,
+				DFC31B1A4DCEE3868D098871E4DBB11B /* FillDrawingLayer.swift in Sources */,
+				668C62A2F02078055977E8C06057DBFE /* GradientDrawingLayer.swift in Sources */,
+				85451BAC72174B367AEB7005415C901B /* GraphPoint.swift in Sources */,
+				934DBADEBC9C677FF123951640E2277B /* GraphPointAnimation.swift in Sources */,
+				834D7A6D4824FBAE11F24CCBFB6C9936 /* LabelPool.swift in Sources */,
+				AE57700675AA7507A516AD16FF32B31F /* LineDrawingLayer.swift in Sources */,
+				AAFBE2B6E8C9FE66278E11AE465FFF74 /* LinePlot.swift in Sources */,
+				9EA03F993AB993A6E65F860AE6C67E02 /* Plot.swift in Sources */,
+				394C37C7CB665C5AF35D9D3DDAFE9968 /* ReferenceLineDrawingView.swift in Sources */,
+				425530017612EAEAE2D56B0BC1C35156 /* ReferenceLines.swift in Sources */,
+				7FD6DD047DF93878A5C20548828D7CFB /* ScrollableGraphView-dummy.m in Sources */,
+				ED9E0B87A35E9F0C697912C924A0C6CB /* ScrollableGraphView.swift in Sources */,
+				86C62992723E64F67BC0E6E010FB7DD8 /* ScrollableGraphViewDataSource.swift in Sources */,
+				7B2905BEEA850FF64D54B1B54E4E91C6 /* ScrollableGraphViewDrawingDelegate.swift in Sources */,
+				C8A23DE8B83DB45C62E7749EFB493F1B /* ScrollableGraphViewDrawingLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		77511D7FF66FA63DDD258184B20C7830 /* PBXTargetDependency */ = {
+		2B70CEA88AF18F44C9D8DA786737758A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScrollableGraphView;
+			target = FD8F5CBDB438D57996A209CDE7AF7B18 /* ScrollableGraphView */;
+			targetProxy = 2C9ACA681F985A392A9D89E8EA4E7A97 /* PBXContainerItemProxy */;
+		};
+		956311CDE7875C005D6372920B78E2F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBluetooth;
+			target = 6D84F94F2DD35AE079674FAFC7CD3566 /* SwiftyBluetooth */;
+			targetProxy = 5F6398B547A9CECFEFF8295DB80129CF /* PBXContainerItemProxy */;
+		};
+		B2F7C7CAD904D32B45CAE43043AFB969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ANLoader;
+			target = 9CE57E025349EFDD992F790715F78FD4 /* ANLoader */;
+			targetProxy = 8B931BD637773FE0F75E9BC1CA7DBD7B /* PBXContainerItemProxy */;
+		};
+		B7C89FEE4BDB4CDD64302FB1EFF495EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LGBluetooth;
 			target = 0BAECEDF8F1B187BB44AB27637CEFF90 /* LGBluetooth */;
-			targetProxy = E527B8983A4E2F3A39101A076D1BEA93 /* PBXContainerItemProxy */;
+			targetProxy = 61F979F924AC145C02A8B0FCB5B12FDA /* PBXContainerItemProxy */;
 		};
-		878692631EBFED9F1CA8FB27CE5492E4 /* PBXTargetDependency */ = {
+		BA523A98B1F8DBEDE66D267700FD5C1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = E6A88D7263579E11505704457C639732 /* PBXContainerItemProxy */;
-		};
-		A83AF917957413563A757C3BE9306967 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyBluetooth;
-			target = ADACE3043D5582BBD2E28E4DBA43B1E1 /* SwiftyBluetooth */;
-			targetProxy = F08E7B86B64201DE94FD7CC3F1B706DD /* PBXContainerItemProxy */;
+			targetProxy = 55F670441C465F190E23808DCCFAEE37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -835,6 +1097,37 @@
 			};
 			name = Release;
 		};
+		2737A16C7DBE465DD7F4FF982D049E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D087C6CC2774C34D9F1B130997248E2D /* ANLoader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ANLoader/ANLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ANLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ANLoader/ANLoader.modulemap";
+				PRODUCT_NAME = ANLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2DB519FB6A504A0969CF6FDF0A4EF888 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3ED15A0F087B951A0956BA47D5F3C52E /* Pods-PediatricSensorUITests.debug.xcconfig */;
@@ -867,9 +1160,43 @@
 			};
 			name = Debug;
 		};
+		3DEE299E38E77AB129D25BB0B0D5CEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95EE40226AFC3651D6224B08D09DF5F0 /* Pods-PediatricSensor.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PediatricSensor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PediatricSensor/Pods-PediatricSensor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PediatricSensor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		426DDB4A4ACD74303D25FAA35100E554 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BABC1B815D3B8AAA7B695EFCF7E0750 /* LGBluetooth.xcconfig */;
+			baseConfigurationReference = 4A8DC810486520EB5F1BC089BD148DED /* LGBluetooth.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -890,6 +1217,37 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		500341A92D79FAEF7FF70C8CE1253997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9BAC82AEAA4F72AB36687DD53AAA7F5 /* ScrollableGraphView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollableGraphView/ScrollableGraphView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollableGraphView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView.modulemap";
+				PRODUCT_NAME = ScrollableGraphView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -959,7 +1317,7 @@
 		};
 		5CA69C7A37ED013D6986A2379905A36D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BABC1B815D3B8AAA7B695EFCF7E0750 /* LGBluetooth.xcconfig */;
+			baseConfigurationReference = 4A8DC810486520EB5F1BC089BD148DED /* LGBluetooth.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -988,38 +1346,7 @@
 			};
 			name = Release;
 		};
-		6B2F1D5DC935708FE4AE69979A6C655E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B9B4DD7EEE3E4885E48960ED1DCF496 /* SwiftyBluetooth.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBluetooth/SwiftyBluetooth-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyBluetooth/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyBluetooth/SwiftyBluetooth.modulemap";
-				PRODUCT_NAME = SwiftyBluetooth;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7CED524AEDCD654B2E06F625C7D84D4F /* Release */ = {
+		6C5A43B92EC6EF6D3927E91C219EDB30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 50AF71DE5E09441695DF9F57913711A5 /* Pods-PediatricSensor.release.xcconfig */;
 			buildSettings = {
@@ -1046,38 +1373,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B07373DE219DECD69F7FC6BA42375B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B9B4DD7EEE3E4885E48960ED1DCF496 /* SwiftyBluetooth.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBluetooth/SwiftyBluetooth-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyBluetooth/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyBluetooth/SwiftyBluetooth.modulemap";
-				PRODUCT_NAME = SwiftyBluetooth;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1118,9 +1413,72 @@
 			};
 			name = Release;
 		};
+		8E31AFD3543D28B8A9484452770CCAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9BAC82AEAA4F72AB36687DD53AAA7F5 /* ScrollableGraphView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollableGraphView/ScrollableGraphView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollableGraphView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView.modulemap";
+				PRODUCT_NAME = ScrollableGraphView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9211A2B8D2A38C98913B9080AC6DB2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBA054AFE6E37C070636636F84B729E /* SwiftyBluetooth.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBluetooth/SwiftyBluetooth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBluetooth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBluetooth/SwiftyBluetooth.modulemap";
+				PRODUCT_NAME = SwiftyBluetooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B0F5F1530D3F4E518BE2B1A52F98487A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99260C854C48B6967B1BBE0955A359F0 /* Alamofire.xcconfig */;
+			baseConfigurationReference = DBFAD3CF5900BBC5949FBCBEC9A9C649 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1149,9 +1507,41 @@
 			};
 			name = Debug;
 		};
+		B2E652925EA27AAE22FFC4C024C2EFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D087C6CC2774C34D9F1B130997248E2D /* ANLoader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ANLoader/ANLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ANLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ANLoader/ANLoader.modulemap";
+				PRODUCT_NAME = ANLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B8CA02655A4B738D82484691EE8CA58F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99260C854C48B6967B1BBE0955A359F0 /* Alamofire.xcconfig */;
+			baseConfigurationReference = DBFAD3CF5900BBC5949FBCBEC9A9C649 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1246,9 +1636,9 @@
 			};
 			name = Release;
 		};
-		C7C011100C425BA932BFF26CF54F915F /* Debug */ = {
+		D2427B6944C2236000F442EF02217045 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95EE40226AFC3651D6224B08D09DF5F0 /* Pods-PediatricSensor.debug.xcconfig */;
+			baseConfigurationReference = 8DBA054AFE6E37C070636636F84B729E /* SwiftyBluetooth.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1259,44 +1649,42 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PediatricSensor/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBluetooth/SwiftyBluetooth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBluetooth/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PediatricSensor/Pods-PediatricSensor.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PediatricSensor;
+				MODULEMAP_FILE = "Target Support Files/SwiftyBluetooth/SwiftyBluetooth.modulemap";
+				PRODUCT_NAME = SwiftyBluetooth;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0869B43CBA3AA5675D2924AA0275D914 /* Build configuration list for PBXNativeTarget "Pods-PediatricSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEE299E38E77AB129D25BB0B0D5CEFF /* Debug */,
+				6C5A43B92EC6EF6D3927E91C219EDB30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		204A81DB0DFB5843B121BB0702BAEC5E /* Build configuration list for PBXNativeTarget "Pods-PediatricSensorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DB519FB6A504A0969CF6FDF0A4EF888 /* Debug */,
 				C4E769814CA1B006503898FBE8B7802C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2362146D046331F0B3D2202EE0E0BFDC /* Build configuration list for PBXNativeTarget "Pods-PediatricSensor" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C7C011100C425BA932BFF26CF54F915F /* Debug */,
-				7CED524AEDCD654B2E06F625C7D84D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1328,20 +1716,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DFE0F60A729E48800E5DC0EB7422950 /* Build configuration list for PBXNativeTarget "SwiftyBluetooth" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6B2F1D5DC935708FE4AE69979A6C655E /* Debug */,
-				8B07373DE219DECD69F7FC6BA42375B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B6F246EDBA04BE2290323962B183A7ED /* Build configuration list for PBXNativeTarget "LGBluetooth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				426DDB4A4ACD74303D25FAA35100E554 /* Debug */,
 				5CA69C7A37ED013D6986A2379905A36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18F43169D668405F2D6DE3AE8C468E8 /* Build configuration list for PBXNativeTarget "ANLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2737A16C7DBE465DD7F4FF982D049E68 /* Debug */,
+				B2E652925EA27AAE22FFC4C024C2EFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C8BF08EB56AF8843176A747175820E /* Build configuration list for PBXNativeTarget "ScrollableGraphView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500341A92D79FAEF7FF70C8CE1253997 /* Debug */,
+				8E31AFD3543D28B8A9484452770CCAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1C0E02C256B1B67C154764FAEE2E26 /* Build configuration list for PBXNativeTarget "SwiftyBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9211A2B8D2A38C98913B9080AC6DB2B1 /* Debug */,
+				D2427B6944C2236000F442EF02217045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

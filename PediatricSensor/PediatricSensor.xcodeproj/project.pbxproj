@@ -9,7 +9,21 @@
 /* Begin PBXBuildFile section */
 		A410A6D81FB3C817003B75D7 /* BluetoothConnectorObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = A410A6D71FB3C817003B75D7 /* BluetoothConnectorObjC.m */; };
 		A410A6DF1FB3CE06003B75D7 /* TDTempoDisc.m in Sources */ = {isa = PBXBuildFile; fileRef = A410A6DE1FB3CE06003B75D7 /* TDTempoDisc.m */; };
+		A45458F01FB8C37C002937E0 /* TDTempoDiscInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45458EE1FB8C37C002937E0 /* TDTempoDiscInfoCell.swift */; };
+		A45458F11FB8C37C002937E0 /* TDTempoDiscInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45458EF1FB8C37C002937E0 /* TDTempoDiscInfoCell.xib */; };
+		A45458F71FB8DD0A002937E0 /* TDTempoDiscInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45458F61FB8DD0A002937E0 /* TDTempoDiscInfoViewController.swift */; };
+		A45459041FB8F84C002937E0 /* TDTempoDiscListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45459031FB8F84C002937E0 /* TDTempoDiscListViewController.swift */; };
+		A45459061FB8FA57002937E0 /* PebbleUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45459051FB8FA57002937E0 /* PebbleUtilities.swift */; };
+		A464D9771FCD2ECA007277DB /* TDUARTAllDataDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A464D9761FCD2ECA007277DB /* TDUARTAllDataDownloader.m */; };
+		A464D97D1FCD30B9007277DB /* TDUARTDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A464D97C1FCD30B9007277DB /* TDUARTDownloader.m */; };
+		A46F473F1FCD4C9A000F20F9 /* SCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F473E1FCD4C9A000F20F9 /* SCHelper.m */; };
+		A46F47411FCE7D04000F20F9 /* DownloadParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F47401FCE7D04000F20F9 /* DownloadParser.swift */; };
+		A4834B111FC4E63C004D58D1 /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4834B101FC4E63C004D58D1 /* RepeatingTimer.swift */; };
+		A4834B141FC73DCE004D58D1 /* PebbleLogGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4834B131FC73DCE004D58D1 /* PebbleLogGraphViewController.swift */; };
+		A4834B161FC75F85004D58D1 /* PebbleGraphLogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4834B151FC75F85004D58D1 /* PebbleGraphLogModel.swift */; };
 		A4AB210C1FB3F32C00D0129A /* ServerConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AB210B1FB3F32C00D0129A /* ServerConnector.swift */; };
+		A4BDB0EC1FBD332600FF4AEF /* PebbleLogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BDB0EB1FBD332600FF4AEF /* PebbleLogModel.swift */; };
+		A4BDB0EE1FBD346A00FF4AEF /* PebbleUtilitiesObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BDB0ED1FBD346A00FF4AEF /* PebbleUtilitiesObjC.m */; };
 		A4D9E0C51FAC154900B7989D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9E0C41FAC154900B7989D /* AppDelegate.swift */; };
 		A4D9E0C71FAC154900B7989D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9E0C61FAC154900B7989D /* ViewController.swift */; };
 		A4D9E0CA1FAC154900B7989D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D9E0C81FAC154900B7989D /* Main.storyboard */; };
@@ -53,7 +67,27 @@
 		A410A6D91FB3C85F003B75D7 /* BluetoothConnectorObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothConnectorObjC.h; sourceTree = "<group>"; };
 		A410A6DD1FB3CDF6003B75D7 /* TDTempoDisc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDTempoDisc.h; sourceTree = "<group>"; };
 		A410A6DE1FB3CE06003B75D7 /* TDTempoDisc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDTempoDisc.m; sourceTree = "<group>"; };
+		A45458EE1FB8C37C002937E0 /* TDTempoDiscInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDTempoDiscInfoCell.swift; sourceTree = "<group>"; };
+		A45458EF1FB8C37C002937E0 /* TDTempoDiscInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TDTempoDiscInfoCell.xib; sourceTree = "<group>"; };
+		A45458F61FB8DD0A002937E0 /* TDTempoDiscInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDTempoDiscInfoViewController.swift; sourceTree = "<group>"; };
+		A45459031FB8F84C002937E0 /* TDTempoDiscListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDTempoDiscListViewController.swift; sourceTree = "<group>"; };
+		A45459051FB8FA57002937E0 /* PebbleUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleUtilities.swift; sourceTree = "<group>"; };
+		A464D9731FCCD297007277DB /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		A464D9751FCD2EB7007277DB /* TDUARTAllDataDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDUARTAllDataDownloader.h; sourceTree = "<group>"; };
+		A464D9761FCD2ECA007277DB /* TDUARTAllDataDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDUARTAllDataDownloader.m; sourceTree = "<group>"; };
+		A464D97B1FCD309C007277DB /* TDUARTDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDUARTDownloader.h; sourceTree = "<group>"; };
+		A464D97C1FCD30B9007277DB /* TDUARTDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDUARTDownloader.m; sourceTree = "<group>"; };
+		A46F473D1FCD4C91000F20F9 /* SCHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHelper.h; sourceTree = "<group>"; };
+		A46F473E1FCD4C9A000F20F9 /* SCHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHelper.m; sourceTree = "<group>"; };
+		A46F47401FCE7D04000F20F9 /* DownloadParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadParser.swift; sourceTree = "<group>"; };
+		A4834B101FC4E63C004D58D1 /* RepeatingTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingTimer.swift; sourceTree = "<group>"; };
+		A4834B121FC5F9A8004D58D1 /* PediatricSensor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PediatricSensor.entitlements; sourceTree = "<group>"; };
+		A4834B131FC73DCE004D58D1 /* PebbleLogGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleLogGraphViewController.swift; sourceTree = "<group>"; };
+		A4834B151FC75F85004D58D1 /* PebbleGraphLogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleGraphLogModel.swift; sourceTree = "<group>"; };
 		A4AB210B1FB3F32C00D0129A /* ServerConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConnector.swift; sourceTree = "<group>"; };
+		A4BDB0EB1FBD332600FF4AEF /* PebbleLogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleLogModel.swift; sourceTree = "<group>"; };
+		A4BDB0ED1FBD346A00FF4AEF /* PebbleUtilitiesObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PebbleUtilitiesObjC.m; sourceTree = "<group>"; };
+		A4BDB0EF1FBD349200FF4AEF /* PebbleUtilitiesObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PebbleUtilitiesObjC.h; sourceTree = "<group>"; };
 		A4D9E0C11FAC154900B7989D /* PediatricSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PediatricSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D9E0C41FAC154900B7989D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4D9E0C61FAC154900B7989D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,11 +150,64 @@
 		87DFB65C8E5CF6152EA85B42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A464D9731FCCD297007277DB /* PushKit.framework */,
 				61E21DBECDFCF5825CFC9DAC /* Pods_PediatricSensor.framework */,
 				0F90357770D184F6CF2C909F /* Pods_PediatricSensorTests.framework */,
 				5CB2B66547E521F86A3135F8 /* Pods_PediatricSensorUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A45458FE1FB8E9D5002937E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A45458EF1FB8C37C002937E0 /* TDTempoDiscInfoCell.xib */,
+				A45458EE1FB8C37C002937E0 /* TDTempoDiscInfoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A45458FF1FB8EA30002937E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A410A6DD1FB3CDF6003B75D7 /* TDTempoDisc.h */,
+				A410A6DE1FB3CE06003B75D7 /* TDTempoDisc.m */,
+				A4BDB0EB1FBD332600FF4AEF /* PebbleLogModel.swift */,
+				A4834B151FC75F85004D58D1 /* PebbleGraphLogModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A45459001FB8EA45002937E0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A4AB210B1FB3F32C00D0129A /* ServerConnector.swift */,
+				A4D9E0F21FAC184500B7989D /* BluetoothConnector.swift */,
+				A410A6D91FB3C85F003B75D7 /* BluetoothConnectorObjC.h */,
+				A410A6D71FB3C817003B75D7 /* BluetoothConnectorObjC.m */,
+				A45459051FB8FA57002937E0 /* PebbleUtilities.swift */,
+				A4BDB0ED1FBD346A00FF4AEF /* PebbleUtilitiesObjC.m */,
+				A4BDB0EF1FBD349200FF4AEF /* PebbleUtilitiesObjC.h */,
+				A4834B101FC4E63C004D58D1 /* RepeatingTimer.swift */,
+				A464D9751FCD2EB7007277DB /* TDUARTAllDataDownloader.h */,
+				A464D9761FCD2ECA007277DB /* TDUARTAllDataDownloader.m */,
+				A464D97B1FCD309C007277DB /* TDUARTDownloader.h */,
+				A464D97C1FCD30B9007277DB /* TDUARTDownloader.m */,
+				A46F473D1FCD4C91000F20F9 /* SCHelper.h */,
+				A46F473E1FCD4C9A000F20F9 /* SCHelper.m */,
+				A46F47401FCE7D04000F20F9 /* DownloadParser.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A45459021FB8EA93002937E0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A45458F61FB8DD0A002937E0 /* TDTempoDiscInfoViewController.swift */,
+				A45459031FB8F84C002937E0 /* TDTempoDiscListViewController.swift */,
+				A4834B131FC73DCE004D58D1 /* PebbleLogGraphViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		A4D9E0B81FAC154900B7989D = {
@@ -148,19 +235,18 @@
 		A4D9E0C31FAC154900B7989D /* PediatricSensor */ = {
 			isa = PBXGroup;
 			children = (
+				A4834B121FC5F9A8004D58D1 /* PediatricSensor.entitlements */,
 				A4D9E0C41FAC154900B7989D /* AppDelegate.swift */,
+				A45459021FB8EA93002937E0 /* ViewControllers */,
+				A45459001FB8EA45002937E0 /* Utilities */,
+				A45458FF1FB8EA30002937E0 /* Model */,
+				A45458FE1FB8E9D5002937E0 /* View */,
 				A4D9E0C61FAC154900B7989D /* ViewController.swift */,
 				A4D9E0C81FAC154900B7989D /* Main.storyboard */,
 				A4D9E0CB1FAC154900B7989D /* Assets.xcassets */,
 				A4D9E0CD1FAC154900B7989D /* LaunchScreen.storyboard */,
 				A4D9E0D01FAC154900B7989D /* Info.plist */,
-				A4D9E0F21FAC184500B7989D /* BluetoothConnector.swift */,
-				A410A6D91FB3C85F003B75D7 /* BluetoothConnectorObjC.h */,
-				A410A6D71FB3C817003B75D7 /* BluetoothConnectorObjC.m */,
-				A410A6DD1FB3CDF6003B75D7 /* TDTempoDisc.h */,
-				A410A6DE1FB3CE06003B75D7 /* TDTempoDisc.m */,
 				A410A6D61FB3C816003B75D7 /* PediatricSensor-Bridging-Header.h */,
-				A4AB210B1FB3F32C00D0129A /* ServerConnector.swift */,
 			);
 			path = PediatricSensor;
 			sourceTree = "<group>";
@@ -262,6 +348,11 @@
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					A4D9E0D41FAC154900B7989D = {
 						CreatedOnToolsVersion = 9.0;
@@ -300,6 +391,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45458F11FB8C37C002937E0 /* TDTempoDiscInfoCell.xib in Resources */,
 				A4D9E0CF1FAC154900B7989D /* LaunchScreen.storyboard in Resources */,
 				A4D9E0CC1FAC154900B7989D /* Assets.xcassets in Resources */,
 				A4D9E0CA1FAC154900B7989D /* Main.storyboard in Resources */,
@@ -444,14 +536,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PediatricSensor/Pods-PediatricSensor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ANLoader/ANLoader.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/LGBluetooth/LGBluetooth.framework",
+				"${BUILT_PRODUCTS_DIR}/ScrollableGraphView/ScrollableGraphView.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyBluetooth/SwiftyBluetooth.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ANLoader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGBluetooth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableGraphView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBluetooth.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,12 +577,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45458F01FB8C37C002937E0 /* TDTempoDiscInfoCell.swift in Sources */,
+				A45459041FB8F84C002937E0 /* TDTempoDiscListViewController.swift in Sources */,
 				A4D9E0F31FAC184500B7989D /* BluetoothConnector.swift in Sources */,
+				A4834B161FC75F85004D58D1 /* PebbleGraphLogModel.swift in Sources */,
+				A4834B141FC73DCE004D58D1 /* PebbleLogGraphViewController.swift in Sources */,
 				A4D9E0C71FAC154900B7989D /* ViewController.swift in Sources */,
+				A4BDB0EC1FBD332600FF4AEF /* PebbleLogModel.swift in Sources */,
+				A4834B111FC4E63C004D58D1 /* RepeatingTimer.swift in Sources */,
 				A410A6D81FB3C817003B75D7 /* BluetoothConnectorObjC.m in Sources */,
+				A46F473F1FCD4C9A000F20F9 /* SCHelper.m in Sources */,
+				A464D97D1FCD30B9007277DB /* TDUARTDownloader.m in Sources */,
 				A410A6DF1FB3CE06003B75D7 /* TDTempoDisc.m in Sources */,
+				A464D9771FCD2ECA007277DB /* TDUARTAllDataDownloader.m in Sources */,
 				A4AB210C1FB3F32C00D0129A /* ServerConnector.swift in Sources */,
+				A45459061FB8FA57002937E0 /* PebbleUtilities.swift in Sources */,
+				A45458F71FB8DD0A002937E0 /* TDTempoDiscInfoViewController.swift in Sources */,
 				A4D9E0C51FAC154900B7989D /* AppDelegate.swift in Sources */,
+				A4BDB0EE1FBD346A00FF4AEF /* PebbleUtilitiesObjC.m in Sources */,
+				A46F47411FCE7D04000F20F9 /* DownloadParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,16 +763,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PediatricSensor/PediatricSensor.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U6J58C8CJT;
+				DEVELOPMENT_TEAM = V877CJGRPU;
 				INFOPLIST_FILE = PediatricSensor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.PediatricSensor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohab.PediatricSensor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PediatricSensor/PediatricSensor-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -673,15 +783,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PediatricSensor/PediatricSensor.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U6J58C8CJT;
+				DEVELOPMENT_TEAM = V877CJGRPU;
 				INFOPLIST_FILE = PediatricSensor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.PediatricSensor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohab.PediatricSensor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PediatricSensor/PediatricSensor-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

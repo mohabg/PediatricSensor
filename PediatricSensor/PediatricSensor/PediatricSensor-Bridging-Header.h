@@ -4,3 +4,7 @@
 
 #import "BluetoothConnectorObjC.h"
 #import "TDTempoDisc.h"
+#import "PebbleUtilitiesObjC.h"
+#import "TDUARTDownloader.h"
+#import "TDUARTAllDataDownloader.h"
+#import "SCHelper.h"

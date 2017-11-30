@@ -17,5 +17,5 @@ routes(app); //register the route
 
 app.listen(port);
 
-console.log('Pediatric Sensor RESTful API server started on: ' + port);
+console.log('Pediatric Sensor REST API server started on port: ' + port);
 

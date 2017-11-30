@@ -9,6 +9,8 @@ target 'PediatricSensor' do
 pod 'SwiftyBluetooth', '1.0.0'
 pod 'LGBluetooth', '~> 1.1.5'
 pod 'Alamofire', '~> 4.5.1'
+pod 'ScrollableGraphView', '~> 4.0.4'
+pod 'ANLoader', :git => 'https://github.com/ANSCoder/ANLoader.git'
 
   target 'PediatricSensorTests' do
     inherit! :search_paths

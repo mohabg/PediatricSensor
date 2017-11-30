@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TDTempoDiscInfoCell" customModule="PediatricSensor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="171" height="221"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="171" height="221"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhA-df-zvb">
+                        <rect key="frame" x="41" y="5" width="89.5" height="19"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Temperature">
+                                <attributes>
+                                    <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98a-jD-zh3">
+                        <rect key="frame" x="61" y="29" width="49.5" height="13"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Fahrenheit">
+                                <attributes>
+                                    <font key="NSFont" size="11" name="HelveticaNeue-Light"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fg-Hb-o3U">
+                        <rect key="frame" x="67" y="47" width="37" height="14"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Current">
+                                <attributes>
+                                    <font key="NSFont" size="12" name="HelveticaNeue-Thin"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zm5-3H-iic">
+                        <rect key="frame" x="69.5" y="66" width="31.5" height="19"/>
+                        <attributedString key="attributedText">
+                            <fragment content="72.3">
+                                <attributes>
+                                    <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yFR-lE-OIp">
+                        <rect key="frame" x="10" y="90" width="150.5" height="14"/>
+                        <attributedString key="attributedText">
+                            <fragment content="24 HOUR HIGHEST LOGGED">
+                                <attributes>
+                                    <font key="NSFont" size="12" name="HelveticaNeue-Thin"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Guz-rg-oa6">
+                        <rect key="frame" x="72.5" y="109" width="26" height="16"/>
+                        <attributedString key="attributedText">
+                            <fragment content="74.5">
+                                <attributes>
+                                    <font key="NSFont" size="13" name="HelveticaNeue-Light"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="py8-bb-rrR">
+                        <rect key="frame" x="9" y="130" width="153" height="14"/>
+                        <attributedString key="attributedText">
+                            <fragment content="24 HOUR AVERAGE LOGGED">
+                                <attributes>
+                                    <font key="NSFont" size="12" name="HelveticaNeue-Thin"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYq-dT-Jvf">
+                        <rect key="frame" x="72.5" y="149" width="25.5" height="16"/>
+                        <attributedString key="attributedText">
+                            <fragment content="72.1">
+                                <attributes>
+                                    <font key="NSFont" size="13" name="HelveticaNeue-Light"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTu-Ii-EAf">
+                        <rect key="frame" x="72.5" y="189" width="25.5" height="16"/>
+                        <attributedString key="attributedText">
+                            <fragment content="70.1">
+                                <attributes>
+                                    <font key="NSFont" size="13" name="HelveticaNeue-Light"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="onO-0M-pan">
+                        <rect key="frame" x="11" y="170" width="148.5" height="14"/>
+                        <attributedString key="attributedText">
+                            <fragment content="24 HOUR LOWEST LOGGED">
+                                <attributes>
+                                    <font key="NSFont" size="12" name="HelveticaNeue-Thin"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="zm5-3H-iic" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="0GN-8B-k96"/>
+                <constraint firstItem="eYq-dT-Jvf" firstAttribute="top" secondItem="py8-bb-rrR" secondAttribute="bottom" constant="5" id="48h-VI-N0c"/>
+                <constraint firstItem="BTu-Ii-EAf" firstAttribute="top" secondItem="onO-0M-pan" secondAttribute="bottom" constant="5" id="7gK-YO-SbE"/>
+                <constraint firstItem="BTu-Ii-EAf" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="D12-sZ-zcS"/>
+                <constraint firstItem="bhA-df-zvb" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="FL6-ZW-Q4F"/>
+                <constraint firstItem="98a-jD-zh3" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="FQF-zG-ARV"/>
+                <constraint firstItem="Guz-rg-oa6" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Kam-lh-DNI"/>
+                <constraint firstItem="zm5-3H-iic" firstAttribute="top" secondItem="4fg-Hb-o3U" secondAttribute="bottom" constant="5" id="Mpe-CW-A4c"/>
+                <constraint firstItem="4fg-Hb-o3U" firstAttribute="top" secondItem="98a-jD-zh3" secondAttribute="bottom" constant="5" id="Oes-LZ-4Ug"/>
+                <constraint firstItem="py8-bb-rrR" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="TU7-Ta-RVf"/>
+                <constraint firstItem="onO-0M-pan" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="VPr-1b-PpH"/>
+                <constraint firstItem="eYq-dT-Jvf" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Xg7-7K-RGW"/>
+                <constraint firstItem="yFR-lE-OIp" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="bfQ-Nk-W72"/>
+                <constraint firstItem="onO-0M-pan" firstAttribute="top" secondItem="eYq-dT-Jvf" secondAttribute="bottom" constant="5" id="dxK-Co-5Q7"/>
+                <constraint firstItem="yFR-lE-OIp" firstAttribute="top" secondItem="zm5-3H-iic" secondAttribute="bottom" constant="5" id="gRT-Ci-ZK8"/>
+                <constraint firstItem="py8-bb-rrR" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="pTg-TC-dbv"/>
+                <constraint firstItem="4fg-Hb-o3U" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="r3U-wL-t7X"/>
+                <constraint firstItem="py8-bb-rrR" firstAttribute="top" secondItem="Guz-rg-oa6" secondAttribute="bottom" constant="5" id="tk8-Sa-NmO"/>
+                <constraint firstItem="Guz-rg-oa6" firstAttribute="top" secondItem="yFR-lE-OIp" secondAttribute="bottom" constant="5" id="vqn-Ns-U77"/>
+                <constraint firstItem="bhA-df-zvb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="yfl-u6-6pS"/>
+                <constraint firstItem="98a-jD-zh3" firstAttribute="top" secondItem="bhA-df-zvb" secondAttribute="bottom" constant="5" id="zwm-Mv-rqJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="171" height="221"/>
+            <connections>
+                <outlet property="averageDataLogLabel" destination="eYq-dT-Jvf" id="4BM-pZ-mah"/>
+                <outlet property="currentDataLabel" destination="zm5-3H-iic" id="IsY-fc-8t0"/>
+                <outlet property="dataTypeLabel" destination="bhA-df-zvb" id="VHb-iO-k2G"/>
+                <outlet property="dataUnitLabel" destination="98a-jD-zh3" id="pXe-jj-XV4"/>
+                <outlet property="highestDataLoggedLabel" destination="Guz-rg-oa6" id="TxP-LU-Wx0"/>
+                <outlet property="lowestDataLogLabel" destination="BTu-Ii-EAf" id="iRF-t1-3jH"/>
+            </connections>
+            <point key="canvasLocation" x="91.5" y="40.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

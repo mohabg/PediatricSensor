@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
      //   BluetoothConnector.scanForSensor()
-        ServerConnector.uploadDataToServer("iOS Upload Test", temperature: 100, humidity: 100, pressure: 100, dewPoint: 100)
+    //    ServerConnector.uploadDataToServer("iOS Upload Test", temperature: 100, humidity: 100, pressure: 100, dewPoint: 100)
     }
 
     override func didReceiveMemoryWarning() {

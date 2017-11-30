@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import Alamofire
+import UserNotifications
+import PushKit
+import LGBluetooth
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,32 +19,61 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+    //    let types: UNAuthorizationOptions = [.alert, .badge, .sound]
+    //    application.registerForRemoteNotifications(matching: )
+        
+       print(LGCentralManager.sharedInstance().centralNotReadyReason)
+
+        //output what state the app is in. This will be used to see when the app is started in the background
+        NSLog("app launched with state \(application.applicationState)")
         
         return true
     }
-
-    func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    
+    func pushKitRegistration()
+    {
+        
+        let mainQueue = DispatchQueue.main
+        // Create a push registry object
+        if #available(iOS 8.0, *) {
+            
+            let voipRegistry: PKPushRegistry = PKPushRegistry(queue: mainQueue)
+            
+            // Set the registry's delegate to self
+            
+            voipRegistry.delegate = self
+            
+            // Set the push type to VoIP
+            
+            voipRegistry.desiredPushTypes = [PKPushType.voIP]
+            
+        } else {
+            // Fallback on earlier versions
+        }
     }
-
+    
     func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        
+        BluetoothConnector.startScanningForSensor()
     }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
-    }
-
-    func applicationDidBecomeActive(_ application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    }
-
-    func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    }
-
-
 }
 
+extension AppDelegate: PKPushRegistryDelegate {
+    
+    func pushRegistry(_ registry: PKPushRegistry, didUpdate pushCredentials: PKPushCredentials, for type: PKPushType) {
+        // Register VoIP push token (a property of PKPushCredentials) with server
+        
+        let deviceToken = pushCredentials.token
+        let nsdataStr = NSData.init(data: deviceToken)
+        let deviceStr = nsdataStr.description.replacingOccurrences(of: " ", with: "")
+        
+        print("voip: " + deviceStr)
+    }
+    
+    func pushRegistry(_ registry: PKPushRegistry, didReceiveIncomingPushWith payload: PKPushPayload, for type: PKPushType, completion: @escaping () -> Void) {
+        
+        let data = payload.dictionaryPayload
+        print("%@", data)
+        completion()
+    }
+}

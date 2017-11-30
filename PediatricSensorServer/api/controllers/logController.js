@@ -14,7 +14,16 @@ exports.get_all_logs = function(req, res) {
 
 
 exports.get_logs_by_name = function(req, res) {
+console.log("Request: " + req.body.name)
   Logs.find({'name': req.body.name}, function(err, log) {
+    if (err)
+      res.send(err);
+    res.json(log);
+  });
+};
+
+exports.get_last_log_by_name = function(req, res) {
+  Logs.find({'name': req.body.name}).sort({'date': -1}).limit(1).exec(function(err, log) {
     if (err)
       res.send(err);
     res.json(log);

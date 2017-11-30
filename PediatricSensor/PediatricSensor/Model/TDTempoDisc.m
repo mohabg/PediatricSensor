@@ -18,6 +18,7 @@
 #define BM_MODEL_DISC_62 0x3E
 #define BM_MODEL_DISC_99 0x63
 #define BM_MODEL_DISC_113 0x71
+// From https://github.com/BlueMaestro/IOS-Tempo-Utility-App-SDK
 
 @implementation TDTempoDisc
 
@@ -45,19 +46,24 @@
     
 }
 
-- (void)fillWithData:(NSDictionary *)advertisedData name:(NSString *)name uuid:(NSString *)uuid {
+- (BOOL)fillWithData:(NSDictionary *)advertisedData name:(NSString *)name uuid:(NSString *)uuid {
     NSData *manufacturerData = [advertisedData objectForKey:@"kCBAdvDataManufacturerData"];
     unsigned char * data = (unsigned char*)[manufacturerData bytes];
     NSUInteger manufacturerDataLength = manufacturerData.length;
     
+    //MOHABS CODE (waits for response packet of sufficient length from device)
+    if(manufacturerDataLength < 31) {
+        return false;
+    }
+    
     //This for loop is to print out each byte to NSLog for debug purposes
-    /*
-     for (NSUInteger i = 0; i < dataLength; i++) {
+    
+     for (NSUInteger i = 0; i < manufacturerDataLength; i++) {
      Byte byte = 0;
      [manufacturerData getBytes:&byte range:NSMakeRange(i, 1)];
-     //NSLog(@"Byte %lu is %02x", (unsigned long)i, byte);
+     NSLog(@"Byte %lu is %02x", (unsigned long)i, byte);
      }
-     */
+     
     
     
     //Check whether BlueMaestro device and if so what version it is
@@ -109,12 +115,12 @@
         } else {
             
             //Not a supported model
-            return;
+            return false;
         }
     } else {
         //Not one of ours
         self.isBlueMaestroDevice = @(NO);
-        return;
+        return false;
     }
     
 #pragma mark - Version 13 and 113
@@ -618,6 +624,7 @@
         NSNumber *fullLightLevelValue = [NSNumber numberWithUnsignedInt:lightValueRawValue];
         self.lightThreshold = fullLightLevelValue;
     }
+    return true;
 }
 
 - (TempoDeviceType)deviceType {

@@ -6,14 +6,12 @@
 //  Copyright © 2017 Mohab Gabal. All rights reserved.
 //
 
+// From https://github.com/BlueMaestro/IOS-Tempo-Utility-App-SDK
+
 #ifndef TDTempoDisc_h
 #define TDTempoDisc_h
 
-
 #endif /* TDTempoDisc_h */
-
-
-//From https://github.com/BlueMaestro/IOS-Tempo-Utility-App-SDK
 
 #import <Foundation/Foundation.h>
 #import <LGBluetooth/LGPeripheral.h>
@@ -114,7 +112,7 @@ typedef enum : NSInteger {
 @property (nullable, nonatomic, strong) NSNumber *lightThreshold;
 
 
-- (void)fillWithData:(NSDictionary *)advertisedData name:(NSString *)name uuid:(NSString *)uuid;
+- (BOOL)fillWithData:(NSDictionary *)advertisedData name:(NSString *)name uuid:(NSString *)uuid;
 
 - (TempoDeviceType)deviceType;
 

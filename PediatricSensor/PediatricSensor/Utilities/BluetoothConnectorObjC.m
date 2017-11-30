@@ -13,6 +13,7 @@
 @implementation BluetoothConnectorObjC
 
 //From https://github.com/BlueMaestro/IOS-Tempo-Utility-App-SDK
+
 + (BOOL)isBlueMaestroDeviceWithAdvertisementData:(NSDictionary*)data {
     NSData *custom = [data objectForKey:@"kCBAdvDataManufacturerData"];
     //BlueMaestro device

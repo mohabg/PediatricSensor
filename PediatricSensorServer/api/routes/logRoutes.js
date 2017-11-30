@@ -8,4 +8,7 @@ module.exports = function(app) {
     
     app.route('/logsByName')
     .post(logController.get_logs_by_name)
+    
+    app.route('/lastLogByName')
+    .post(logController.get_last_log_by_name)
 };

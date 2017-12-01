@@ -24,35 +24,39 @@ class PebbleLogGraphViewController: UIViewController, ScrollableGraphViewDataSou
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let frame = CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        let graphView = ScrollableGraphView(frame: frame, dataSource: self)
+        //let frame = self.view.frame
+        let graphView = ScrollableGraphView(frame: self.view.frame, dataSource: self)
        
         let referenceLines = ReferenceLines()
         referenceLines.referenceLinePosition = .both
-        let linePlot = LinePlot(identifier: identifier.rawValue)
-        linePlot.lineWidth = 1.0
-        linePlot.animationDuration = 0.75
-        linePlot.lineStyle = .smooth
+        let dotPlot = DotPlot.init(identifier: identifier.rawValue)
+        dotPlot.dataPointType = .circle
+        dotPlot.animationDuration = 0.75
+        
+//        let linePlot = LinePlot(identifier: identifier.rawValue)
+//        linePlot.lineWidth = 1.0
+//        linePlot.animationDuration = 0.75
+//        linePlot.lineStyle = .straight
       
-        graphView.addPlot(plot: linePlot)
+        graphView.addPlot(plot: dotPlot)
         graphView.addReferenceLines(referenceLines: referenceLines)
         graphView.direction = .rightToLeft
         
         switch identifier {
         case .Temperature:
-            linePlot.lineColor = UIColor.red
+            dotPlot.dataPointFillColor = UIColor.red
             if(graphData.max()! > 100) {
                 graphView.rangeMax = graphData.max()!
             }
         case .Humidity:
-            linePlot.lineColor = UIColor.blue
+            dotPlot.dataPointFillColor = UIColor.blue
         case .Pressure:
-            linePlot.lineColor = UIColor.purple
+            dotPlot.dataPointFillColor = UIColor.purple
             //TODO round em
             graphView.rangeMin = graphData.min()!
             graphView.rangeMax = graphData.max()!
         case .DewPoint:
-            linePlot.lineColor = UIColor.green
+            dotPlot.dataPointFillColor = UIColor.green
         }
         self.view.addSubview(graphView)
     }
@@ -78,7 +82,7 @@ class PebbleLogGraphViewController: UIViewController, ScrollableGraphViewDataSou
     func label(atIndex pointIndex: Int) -> String {
      //   let date = pebbleGraphModel?.dates[pointIndex]
         
-        return "iam a bunch oftext \(pointIndex)"
+        return "\(pointIndex)"
     }
     
     func numberOfPoints() -> Int {

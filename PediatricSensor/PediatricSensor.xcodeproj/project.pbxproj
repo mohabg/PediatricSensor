@@ -25,6 +25,8 @@
 		A495BC011FD0E82D00B05CAE /* PebbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A495BBFF1FD0E82D00B05CAE /* PebbleTableViewCell.xib */; };
 		A495BC061FD10CD600B05CAE /* PebbleDataTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495BC041FD10CD600B05CAE /* PebbleDataTypeTableViewCell.swift */; };
 		A495BC071FD10CD600B05CAE /* PebbleDataTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A495BC051FD10CD600B05CAE /* PebbleDataTypeTableViewCell.xib */; };
+		A495BC0E1FD15BE300B05CAE /* PebbleDataTypeTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495BC0C1FD15BE300B05CAE /* PebbleDataTypeTableViewHeaderCell.swift */; };
+		A495BC0F1FD15BE300B05CAE /* PebbleDataTypeTableViewHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A495BC0D1FD15BE300B05CAE /* PebbleDataTypeTableViewHeaderCell.xib */; };
 		A4AB210C1FB3F32C00D0129A /* ServerConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AB210B1FB3F32C00D0129A /* ServerConnector.swift */; };
 		A4BDB0EC1FBD332600FF4AEF /* PebbleLogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BDB0EB1FBD332600FF4AEF /* PebbleLogModel.swift */; };
 		A4BDB0EE1FBD346A00FF4AEF /* PebbleUtilitiesObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BDB0ED1FBD346A00FF4AEF /* PebbleUtilitiesObjC.m */; };
@@ -92,6 +94,8 @@
 		A495BBFF1FD0E82D00B05CAE /* PebbleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PebbleTableViewCell.xib; sourceTree = "<group>"; };
 		A495BC041FD10CD600B05CAE /* PebbleDataTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleDataTypeTableViewCell.swift; sourceTree = "<group>"; };
 		A495BC051FD10CD600B05CAE /* PebbleDataTypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PebbleDataTypeTableViewCell.xib; sourceTree = "<group>"; };
+		A495BC0C1FD15BE300B05CAE /* PebbleDataTypeTableViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleDataTypeTableViewHeaderCell.swift; sourceTree = "<group>"; };
+		A495BC0D1FD15BE300B05CAE /* PebbleDataTypeTableViewHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PebbleDataTypeTableViewHeaderCell.xib; sourceTree = "<group>"; };
 		A4AB210B1FB3F32C00D0129A /* ServerConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConnector.swift; sourceTree = "<group>"; };
 		A4BDB0EB1FBD332600FF4AEF /* PebbleLogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleLogModel.swift; sourceTree = "<group>"; };
 		A4BDB0ED1FBD346A00FF4AEF /* PebbleUtilitiesObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PebbleUtilitiesObjC.m; sourceTree = "<group>"; };
@@ -175,6 +179,8 @@
 				A495BBFF1FD0E82D00B05CAE /* PebbleTableViewCell.xib */,
 				A495BC041FD10CD600B05CAE /* PebbleDataTypeTableViewCell.swift */,
 				A495BC051FD10CD600B05CAE /* PebbleDataTypeTableViewCell.xib */,
+				A495BC0C1FD15BE300B05CAE /* PebbleDataTypeTableViewHeaderCell.swift */,
+				A495BC0D1FD15BE300B05CAE /* PebbleDataTypeTableViewHeaderCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -403,6 +409,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A495BC0F1FD15BE300B05CAE /* PebbleDataTypeTableViewHeaderCell.xib in Resources */,
 				A45458F11FB8C37C002937E0 /* TDTempoDiscInfoCell.xib in Resources */,
 				A4D9E0CF1FAC154900B7989D /* LaunchScreen.storyboard in Resources */,
 				A495BC011FD0E82D00B05CAE /* PebbleTableViewCell.xib in Resources */,
@@ -597,6 +604,7 @@
 				A45459041FB8F84C002937E0 /* TDTempoDiscListViewController.swift in Sources */,
 				A4D9E0F31FAC184500B7989D /* BluetoothConnector.swift in Sources */,
 				A4834B161FC75F85004D58D1 /* PebbleGraphLogModel.swift in Sources */,
+				A495BC0E1FD15BE300B05CAE /* PebbleDataTypeTableViewHeaderCell.swift in Sources */,
 				A4834B141FC73DCE004D58D1 /* PebbleLogGraphViewController.swift in Sources */,
 				A495BC001FD0E82D00B05CAE /* PebbleTableViewCell.swift in Sources */,
 				A495BC061FD10CD600B05CAE /* PebbleDataTypeTableViewCell.swift in Sources */,

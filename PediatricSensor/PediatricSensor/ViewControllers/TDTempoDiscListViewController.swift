@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import RATreeView
 import ANLoader
 
 class TDTempoDiscListViewController: UIViewController {
@@ -21,14 +20,16 @@ class TDTempoDiscListViewController: UIViewController {
     
     var parser = DownloadParser()
     
-    static let LIST_CELL_IDENTIFIER = "ListCellIdentifier"
+    var expandSectionButtonClicked: [Int: Bool] = [:]
 
+    static let LIST_CELL_IDENTIFIER = "ListCellIdentifier"
+    static let HEADER_CELL_IDENTIFIER = "HeaderCellIdentifier"
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let treeView = RATreeView.init(frame: self.view.frame)
-        
-        registerForPebbleNotifications()
+        registerForNotifications()
         
         lookForDevices()
         
@@ -40,16 +41,18 @@ class TDTempoDiscListViewController: UIViewController {
     }
     
     func setUpTableView() {
-     //   self.tableView.register(PebbleDataTypeTableViewCell.self, forCellReuseIdentifier: TDTempoDiscListViewController.LIST_CELL_IDENTIFIER)
+
         self.tableView.register(UINib.init(nibName: "PebbleDataTypeTableViewCell", bundle: nil), forCellReuseIdentifier: TDTempoDiscListViewController.LIST_CELL_IDENTIFIER)
+         self.tableView.register(UINib.init(nibName: "PebbleDataTypeTableViewHeaderCell", bundle: nil), forCellReuseIdentifier: TDTempoDiscListViewController.HEADER_CELL_IDENTIFIER)
         self.tableView.delegate = self
         self.tableView.dataSource = self
-        self.tableView.estimatedRowHeight = 40
+        self.tableView.estimatedRowHeight = 100
         self.tableView.rowHeight = UITableViewAutomaticDimension
-        //removes empty table cells
+        //removes empty table sections/cells
         self.tableView.tableFooterView = UIView()
-        self.tableView.backgroundColor = UIColor.clear
-        self.tableView.backgroundView = nil
+        self.tableView.separatorStyle = .none
+
+     //   setBackgroundGradient(from: UIColor.init(red: 0, green: 0, blue: 0, alpha: 1.0), to: UIColor.init(red: 67.0/225.0, green: 67.0/225.0, blue: 67.0/225.0, alpha: 1.0))
     }
     
     func lookForDevices() {
@@ -59,9 +62,10 @@ class TDTempoDiscListViewController: UIViewController {
         ServerConnector.requestDataFromServerForDevice("test")
     }
     
-    func registerForPebbleNotifications() {
+    func registerForNotifications() {
         NotificationCenter.default.addObserver(self, selector: #selector(self.pebbleFound(_:)), name: NSNotification.Name(rawValue:"pebbleFound"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(self.pebbleLogFound(_:)), name: NSNotification.Name(rawValue:"pebbleLogFound"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(self.expandSectionClicked(_:)), name: NSNotification.Name(rawValue:"expandSectionButtonClicked"), object: nil)
     }
     
     @objc func pebbleFound(_ notification: NSNotification) {
@@ -90,14 +94,57 @@ class TDTempoDiscListViewController: UIViewController {
         self.tableView.reloadData()
     }
     
+    @objc func expandSectionClicked(_ sender: UIButton) {
+        let section = sender.tag
+        var indexPaths = [IndexPath]()
+        for i in 0...3 {
+            indexPaths.append(IndexPath.init(row: i, section: section))
+        }
+        switch self.expandSectionButtonClicked[section] {
+        case nil:
+            self.expandSectionButtonClicked[section] = true
+            self.tableView.insertRows(at: indexPaths, with: .fade)
+            sender.setTitle("Collapse", for: .normal)
+        case true?:
+            self.expandSectionButtonClicked[section] = !self.expandSectionButtonClicked[section]!
+
+            self.tableView.deleteRows(at: indexPaths, with: .fade)
+            sender.setTitle("Expand", for: .normal)
+
+        case false?:
+            self.expandSectionButtonClicked[section] = !self.expandSectionButtonClicked[section]!
+
+            self.tableView.insertRows(at: indexPaths, with: .fade)
+            sender.setTitle("Collapse", for: .normal)
+        }
+        
+        self.tableView.beginUpdates()
+        self.tableView.endUpdates()
+        self.tableView.reloadData()
+    }
+    
     func setUpNavigationBar() {
         
         self.navigationItem.title = "Device List"
         self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(barButtonSystemItem: .search, target: self, action: #selector(self.searchForDevice(_:)))
     }
-    
+
     @objc func searchForDevice(_ sender: UIButton!) {
+        let alertController = UIAlertController(title: "Coming Soon", message: nil, preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.cancel, handler: nil))
+        present(alertController, animated: true, completion: nil)
+    }
+    
+    func setBackgroundGradient(from topColor: UIColor, to bottomColor: UIColor){
+        let gradient = CAGradientLayer()
         
+        gradient.frame = self.view.frame
+        gradient.colors = [topColor.cgColor, bottomColor.cgColor]
+        
+        gradient.startPoint = CGPoint.init(x: 0.5, y: 0.5)
+        gradient.endPoint = CGPoint.init(x: 1.0, y: 0.5)
+        
+        self.view.layer.insertSublayer(gradient, at: 0)
     }
 }
 
@@ -108,7 +155,8 @@ extension TDTempoDiscListViewController: UITableViewDelegate, UITableViewDataSou
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        if(self.expandSectionButtonClicked[section] == nil) { return 0 }
+        return self.expandSectionButtonClicked[section]! ? 4 : 0
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -121,77 +169,78 @@ extension TDTempoDiscListViewController: UITableViewDelegate, UITableViewDataSou
         switch indexPath.row {
         case 0:
             cell.fillWithDataType(.Temperature, usingDisc: disc)
-        //    cell.backgroundColor = UIColor.init(red: 244, green: 67, blue: 54, alpha: 1.0)
         case 1:
             cell.fillWithDataType(.Humidity, usingDisc: disc)
-        //    cell.contentView.backgroundColor = UIColor.init(red: 244, green: 67, blue: 54, alpha: 1.0)
         case 2:
             cell.fillWithDataType(.Pressure, usingDisc: disc)
         case 3:
             cell.fillWithDataType(.DewPoint, usingDisc: disc)
         default: break
     }
-     //   cell.textLabel?.text = logs[indexPath.row].deviceName
-    //    cell.setCollectionViewDataSourceDelegate(dataSourceDelegate: self, forRow: indexPath.row)
-//        cell.frame = tableView.bounds;
-//        cell.layoutIfNeeded()
-//        cell.collectionView.reloadData()
-//        cell.collectionViewHeight.constant = cell.collectionView.collectionViewLayout.collectionViewContentSize.height;
-        
+     
         return cell
-    }
+}
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let dataTypeCell = cell as! PebbleDataTypeTableViewCell
         switch indexPath.row {
         case 0:
-          //  dataTypeCell.background.backgroundColor = UIColor.init(red: 213.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0)
-//            dataTypeCell.setBackgroundGradient(from: UIColor.init(red: 213.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0), to: UIColor.init(red: 41.0/255.0, green: 98.0/255.0, blue: 255.0/255.0, alpha: 1.0))
               dataTypeCell.setBackgroundGradient(from: UIColor.init(red: 244.0/255.0, green: 67.0/255.0, blue: 54.0/255.0, alpha: 1.0), to: UIColor.white)
         case 1:
-          //  dataTypeCell.background.backgroundColor = UIColor.init(red: 41.0/255.0, green: 98.0/255.0, blue: 255.0/255.0, alpha: 1.0)
-//           dataTypeCell.setBackgroundGradient(from: UIColor.init(red: 41.0/255.0, green: 98.0/255.0, blue: 255.0/255.0, alpha: 1.0), to: UIColor.init(red: 98.0/255.0, green: 0.0/255.0, blue: 234.0/255.0, alpha: 1.0))
                dataTypeCell.setBackgroundGradient(from: UIColor.init(red: 41.0/255.0, green: 98.0/255.0, blue: 255.0/255.0, alpha: 1.0), to: UIColor.white)
         case 2:
-          //  dataTypeCell.background.backgroundColor = UIColor.init(red: 98.0/255.0, green: 0.0/255.0, blue: 234.0/255.0, alpha: 1.0)
-
-//            dataTypeCell.setBackgroundGradient(from: UIColor.init(red: 98.0/255.0, green: 0.0/255.0, blue: 234.0/255.0, alpha: 1.0), to: UIColor.init(red: 0.0/255.0, green: 200.0/255.0, blue: 83.0/255.0, alpha: 1.0))
               dataTypeCell.setBackgroundGradient(from: UIColor.init(red: 98.0/255.0, green: 0.0/255.0, blue: 234.0/255.0, alpha: 1.0), to: UIColor.white)
         case 3:
-          //  dataTypeCell.background.backgroundColor = UIColor.init(red: 0.0/255.0, green: 200.0/255.0, blue: 83.0/255.0, alpha: 1.0)
-            
             dataTypeCell.setBackgroundGradient(from: UIColor.init(red: 0.0/255.0, green: 200.0/255.0, blue: 83.0/255.0, alpha: 1.0), to: UIColor.white)
         default: break
         }
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 150.0
-    }
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let infoVC = storyboard?.instantiateViewController(withIdentifier: "TDTempoDiscInfoViewController") as! TDTempoDiscInfoViewController
-        let disc = logsToDisks[logs[indexPath.row]]
-        infoVC.disc = disc
-        infoVC.parser = parser
-        
-        tableView.deselectRow(at: indexPath, animated: true)
-        self.show(infoVC, sender: self)
-    }
-}
+//    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+//        return 100.0
+//    }
 
-extension TDTempoDiscListViewController: UICollectionViewDelegate, UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView,
-                        numberOfItemsInSection section: Int) -> Int {
-        
-        return 4
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 40.0
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+
+        let cell = tableView.dequeueReusableCell(withIdentifier: TDTempoDiscListViewController.HEADER_CELL_IDENTIFIER) as! PebbleDataTypeTableViewHeaderCell
+        cell.sectionTitleLabel.text = logs[section].deviceName
+        cell.expandSectionButton.addTarget(self, action: #selector(self.expandSectionClicked(_:)), for: .touchUpInside)
+        cell.expandSectionButton.tag = section
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TDTempoDiscInfoViewController.INFO_CELL_IDENTIFIER, for: indexPath) as! TDTempoDiscInfoCell
-        cell.frame = CGRect.init(x: cell.frame.origin.x, y: cell.frame.origin.y, width: 100.0, height: 150.0)
-        
-        return cell
+        return cell.contentView
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let infoVC = storyboard?.instantiateViewController(withIdentifier: "TDTempoDiscInfoViewController") as! TDTempoDiscInfoViewController
+//        let disc = logsToDisks[logs[indexPath.row]]
+//        infoVC.disc = disc
+//        infoVC.parser = parser
+//
+//        tableView.deselectRow(at: indexPath, animated: true)
+//        self.show(infoVC, sender: self)
+            let graphVC = storyboard?.instantiateViewController(withIdentifier: "PebbleLogGraphViewController") as! PebbleLogGraphViewController
+            switch indexPath.row {
+            case 0:
+                graphVC.graphData = parser.temp
+                graphVC.identifier = .Temperature
+            case 1:
+                graphVC.graphData = parser.humidity
+                graphVC.identifier = .Humidity
+            case 2:
+                graphVC.graphData = parser.pressure
+                graphVC.identifier = .Pressure
+            case 3:
+                graphVC.graphData = parser.dewPoint
+                graphVC.identifier = .DewPoint
+            default:
+                break
+            }
+            tableView.deselectRow(at: indexPath, animated: true)
+            self.show(graphVC, sender: self)
     }
 }
 

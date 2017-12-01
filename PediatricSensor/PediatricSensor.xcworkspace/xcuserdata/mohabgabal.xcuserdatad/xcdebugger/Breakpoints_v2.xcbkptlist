@@ -170,27 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.663381"
+            timestampString = "533821210.137151"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "TDTempoDiscListViewController"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.664117"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "pebbleFound(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -202,11 +186,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.664723"
+            timestampString = "533821210.137682"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "pebbleFound(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
+            timestampString = "533821210.137896"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
             landmarkName = "numberOfSections(in:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -298,11 +298,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.665628"
+            timestampString = "533821210.138144"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
             landmarkName = "setUpNavigationBar()"
             landmarkType = "7">
          </BreakpointContent>
@@ -330,7 +330,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/AppDelegate.swift"
-            timestampString = "533802253.187654"
+            timestampString = "533821210.138355"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
@@ -346,7 +346,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/AppDelegate.swift"
-            timestampString = "533802253.18799"
+            timestampString = "533821210.138687"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -362,7 +362,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/Utilities/BluetoothConnector.swift"
-            timestampString = "533802995.669813"
+            timestampString = "533817978.787879"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "129"
@@ -410,7 +410,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/Utilities/BluetoothConnector.swift"
-            timestampString = "533802995.669885"
+            timestampString = "533817978.788099"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "114"
@@ -426,7 +426,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/Utilities/BluetoothConnector.swift"
-            timestampString = "533802995.669939"
+            timestampString = "533817978.788153"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "92"
@@ -442,7 +442,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/Utilities/BluetoothConnector.swift"
-            timestampString = "533802995.669987"
+            timestampString = "533817978.788201"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "87"
@@ -458,7 +458,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/Utilities/BluetoothConnector.swift"
-            timestampString = "533802995.670031"
+            timestampString = "533817978.788246"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "118"
@@ -506,29 +506,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.666593"
+            timestampString = "533821210.138931"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.667218"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
-            landmarkName = "TDTempoDiscListViewController"
-            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -554,7 +538,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/Utilities/BluetoothConnector.swift"
-            timestampString = "533802995.671498"
+            timestampString = "533817978.789079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "82"
@@ -602,7 +586,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/Utilities/BluetoothConnector.swift"
-            timestampString = "533802995.671552"
+            timestampString = "533817978.78916"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "113"
@@ -682,7 +666,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/Utilities/BluetoothConnector.swift"
-            timestampString = "533802995.671628"
+            timestampString = "533817978.789295"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "117"
@@ -730,11 +714,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.667895"
+            timestampString = "533821210.139244"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "pebbleFound(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -746,11 +730,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.668476"
+            timestampString = "533821210.139453"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "pebbleLogFound(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -762,7 +746,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/Utilities/BluetoothConnector.swift"
-            timestampString = "533802995.672904"
+            timestampString = "533817978.79084"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -898,7 +882,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/TDTempoDiscInfoViewController.swift"
-            timestampString = "533808530.669173"
+            timestampString = "533821210.139779"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
@@ -914,7 +898,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/TDTempoDiscInfoViewController.swift"
-            timestampString = "533808530.66923"
+            timestampString = "533821210.140077"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
@@ -930,11 +914,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/PebbleLogGraphViewController.swift"
-            timestampString = "533643136.569884"
+            timestampString = "533821210.140181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "value(forPlot:atIndex:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1013,27 +997,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.669346"
+            timestampString = "533821210.140819"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "190"
-            endingLineNumber = "190"
-            landmarkName = "collectionView(_:cellForItemAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.669934"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1045,11 +1013,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.670587"
+            timestampString = "533821210.141026"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "numberOfSections(in:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1061,27 +1029,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.671157"
+            timestampString = "533821210.141224"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.671674"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
             landmarkName = "tableView(_:titleForHeaderInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1093,13 +1045,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.672172"
+            timestampString = "533821210.141414"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
-            landmarkName = "TDTempoDiscListViewController"
-            landmarkType = "21">
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "tableView(_:titleForHeaderInSection:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1109,7 +1061,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/View/PebbleTableViewCell.swift"
-            timestampString = "533808530.672678"
+            timestampString = "533821210.141607"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
@@ -1125,7 +1077,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/View/PebbleTableViewCell.swift"
-            timestampString = "533808530.672729"
+            timestampString = "533821210.14188"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
@@ -1141,7 +1093,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/View/PebbleTableViewCell.swift"
-            timestampString = "533808530.672773"
+            timestampString = "533821210.14198"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
@@ -1157,12 +1109,118 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
-            timestampString = "533808530.672816"
+            timestampString = "533821210.142074"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
             landmarkName = "tableView(_:willDisplay:forRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
+            timestampString = "533821210.142226"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "expandSectionClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
+            timestampString = "533821210.142341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "expandSectionClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
+            timestampString = "533821210.142453"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "expandSectionClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
+            timestampString = "533821210.142577"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
+            timestampString = "533821210.142676"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PediatricSensor/ViewControllers/TDTempoDiscListViewController.swift"
+            timestampString = "533821210.142772"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "expandSectionClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

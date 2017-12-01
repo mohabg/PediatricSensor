@@ -8,83 +8,141 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNext.ttc">
+            <string>AvenirNext-UltraLight</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="174" id="KGk-i7-Jjw" customClass="PebbleDataTypeTableViewCell" customModule="PediatricSensor" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="377" height="174"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="194" id="KGk-i7-Jjw" customClass="PebbleDataTypeTableViewCell" customModule="PediatricSensor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="377" height="194"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="377" height="173.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="377" height="193.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UC4-a6-PkY">
-                        <rect key="frame" x="0.0" y="0.0" width="377" height="173.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="377" height="193.5"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Temperature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSJ-y6-xdL">
-                                <rect key="frame" x="8" y="75" width="98" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSJ-y6-xdL">
+                                <rect key="frame" x="10" y="10" width="168.5" height="41"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Temperature">
+                                        <attributes>
+                                            <font key="NSFont" size="30" name="AvenirNext-UltraLight"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQ1-gP-AH8">
+                                <rect key="frame" x="61.5" y="61" width="65.5" height="19.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Fahrenheit">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="AvenirNext-UltraLight"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="24 HR MAX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucq-1e-Wwd">
+                                <rect key="frame" x="285" y="5" width="82" height="22"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="72.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oco-RE-lu2">
-                                <rect key="frame" x="131" y="76" width="31" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBc-G3-Dta">
+                                <rect key="frame" x="306" y="32" width="40" height="27.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="75.6">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="AvenirNext-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="24 HR MAX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucq-1e-Wwd">
-                                <rect key="frame" x="270" y="8" width="89" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Bt-bs-heY">
+                                <rect key="frame" x="286.5" y="69.5" width="79.5" height="22"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="24 HR AVG">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="AvenirNext-UltraLight"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="75.6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBc-G3-Dta">
-                                <rect key="frame" x="270" y="37" width="34" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fio-Hd-CAk">
+                                <rect key="frame" x="306" y="96.5" width="40" height="27.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="71.4">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="AvenirNext-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="24 HR AVG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Bt-bs-heY">
-                                <rect key="frame" x="270" y="66" width="85" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdd-JI-pvQ">
+                                <rect key="frame" x="287" y="134" width="78" height="22"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="24 HR MIN">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="AvenirNext-UltraLight"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="71.4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fio-Hd-CAk">
-                                <rect key="frame" x="270" y="95" width="32" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBf-3B-Vwd">
+                                <rect key="frame" x="306" y="161" width="40" height="27.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="68.5">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="AvenirNext-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="24 HR MIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdd-JI-pvQ">
-                                <rect key="frame" x="270" y="124" width="83" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="68.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBf-3B-Vwd">
-                                <rect key="frame" x="270" y="152" width="35" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQ1-gP-AH8">
-                                <rect key="frame" x="17" y="104" width="81" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oco-RE-lu2">
+                                <rect key="frame" x="58" y="100.5" width="72" height="49.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="72.1">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="AvenirNext-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="zQ1-gP-AH8" firstAttribute="top" secondItem="QSJ-y6-xdL" secondAttribute="bottom" constant="10" id="1c4-ow-Wvy"/>
+                            <constraint firstItem="zQ1-gP-AH8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="UC4-a6-PkY" secondAttribute="leading" constant="10" id="61z-6O-5Yf"/>
+                            <constraint firstItem="uBf-3B-Vwd" firstAttribute="top" secondItem="gdd-JI-pvQ" secondAttribute="bottom" constant="5" id="9eq-a0-arp"/>
+                            <constraint firstItem="fio-Hd-CAk" firstAttribute="top" secondItem="5Bt-bs-heY" secondAttribute="bottom" constant="5" id="9iA-M4-TX5"/>
+                            <constraint firstItem="ucq-1e-Wwd" firstAttribute="centerX" secondItem="XBc-G3-Dta" secondAttribute="centerX" id="CdR-7r-fhz"/>
+                            <constraint firstAttribute="bottom" secondItem="uBf-3B-Vwd" secondAttribute="bottom" constant="5" id="Ezy-Ob-41i"/>
+                            <constraint firstItem="QSJ-y6-xdL" firstAttribute="leading" secondItem="UC4-a6-PkY" secondAttribute="leading" constant="10" id="Lyk-Op-KVj"/>
+                            <constraint firstItem="XBc-G3-Dta" firstAttribute="top" secondItem="ucq-1e-Wwd" secondAttribute="bottom" constant="5" id="OmM-Gn-e7h"/>
+                            <constraint firstItem="ucq-1e-Wwd" firstAttribute="top" secondItem="UC4-a6-PkY" secondAttribute="top" constant="5" id="U98-Gc-YRg"/>
+                            <constraint firstItem="zQ1-gP-AH8" firstAttribute="centerX" secondItem="QSJ-y6-xdL" secondAttribute="centerX" id="Wpw-gd-Jap"/>
+                            <constraint firstItem="Oco-RE-lu2" firstAttribute="top" secondItem="zQ1-gP-AH8" secondAttribute="bottom" constant="20" id="eWw-SS-n0z"/>
+                            <constraint firstItem="Oco-RE-lu2" firstAttribute="centerX" secondItem="QSJ-y6-xdL" secondAttribute="centerX" id="fDn-27-OfC"/>
+                            <constraint firstItem="uBf-3B-Vwd" firstAttribute="centerX" secondItem="XBc-G3-Dta" secondAttribute="centerX" id="gfa-16-0eT"/>
+                            <constraint firstItem="5Bt-bs-heY" firstAttribute="centerX" secondItem="XBc-G3-Dta" secondAttribute="centerX" id="l50-ei-tCr"/>
+                            <constraint firstItem="gdd-JI-pvQ" firstAttribute="centerX" secondItem="XBc-G3-Dta" secondAttribute="centerX" id="lNu-Ci-NTo"/>
+                            <constraint firstItem="5Bt-bs-heY" firstAttribute="top" relation="greaterThanOrEqual" secondItem="XBc-G3-Dta" secondAttribute="bottom" constant="10" id="lZC-zD-tay"/>
+                            <constraint firstItem="QSJ-y6-xdL" firstAttribute="top" secondItem="UC4-a6-PkY" secondAttribute="top" constant="10" id="oOO-dJ-oY7"/>
+                            <constraint firstItem="fio-Hd-CAk" firstAttribute="centerX" secondItem="XBc-G3-Dta" secondAttribute="centerX" id="pnK-yW-nUw"/>
+                            <constraint firstItem="gdd-JI-pvQ" firstAttribute="top" secondItem="fio-Hd-CAk" secondAttribute="bottom" constant="10" id="qe5-v9-ffq"/>
+                            <constraint firstAttribute="trailing" secondItem="ucq-1e-Wwd" secondAttribute="trailing" constant="10" id="sDy-yT-NIr"/>
+                        </constraints>
                     </view>
                 </subviews>
                 <constraints>
@@ -104,7 +162,7 @@
                 <outlet property="highestDataLabel" destination="XBc-G3-Dta" id="Ppg-wg-RFG"/>
                 <outlet property="lowestDataLabel" destination="uBf-3B-Vwd" id="64f-6u-tdg"/>
             </connections>
-            <point key="canvasLocation" x="5.5" y="119"/>
+            <point key="canvasLocation" x="5.5" y="129"/>
         </tableViewCell>
     </objects>
 </document>

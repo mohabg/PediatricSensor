@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "34E6839DE1D624124413AE32AAB8119F"
+               BlueprintIdentifier = "A86B87524C7163EE3743606109214BB4"
                BuildableName = "Pods_PediatricSensor.framework"
                BlueprintName = "Pods-PediatricSensor"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "34E6839DE1D624124413AE32AAB8119F"
+            BlueprintIdentifier = "A86B87524C7163EE3743606109214BB4"
             BuildableName = "Pods_PediatricSensor.framework"
             BlueprintName = "Pods-PediatricSensor"
             ReferencedContainer = "container:Pods.xcodeproj">

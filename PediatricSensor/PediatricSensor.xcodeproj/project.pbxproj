@@ -21,6 +21,10 @@
 		A4834B111FC4E63C004D58D1 /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4834B101FC4E63C004D58D1 /* RepeatingTimer.swift */; };
 		A4834B141FC73DCE004D58D1 /* PebbleLogGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4834B131FC73DCE004D58D1 /* PebbleLogGraphViewController.swift */; };
 		A4834B161FC75F85004D58D1 /* PebbleGraphLogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4834B151FC75F85004D58D1 /* PebbleGraphLogModel.swift */; };
+		A495BC001FD0E82D00B05CAE /* PebbleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495BBFE1FD0E82D00B05CAE /* PebbleTableViewCell.swift */; };
+		A495BC011FD0E82D00B05CAE /* PebbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A495BBFF1FD0E82D00B05CAE /* PebbleTableViewCell.xib */; };
+		A495BC061FD10CD600B05CAE /* PebbleDataTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495BC041FD10CD600B05CAE /* PebbleDataTypeTableViewCell.swift */; };
+		A495BC071FD10CD600B05CAE /* PebbleDataTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A495BC051FD10CD600B05CAE /* PebbleDataTypeTableViewCell.xib */; };
 		A4AB210C1FB3F32C00D0129A /* ServerConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AB210B1FB3F32C00D0129A /* ServerConnector.swift */; };
 		A4BDB0EC1FBD332600FF4AEF /* PebbleLogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BDB0EB1FBD332600FF4AEF /* PebbleLogModel.swift */; };
 		A4BDB0EE1FBD346A00FF4AEF /* PebbleUtilitiesObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BDB0ED1FBD346A00FF4AEF /* PebbleUtilitiesObjC.m */; };
@@ -84,6 +88,10 @@
 		A4834B121FC5F9A8004D58D1 /* PediatricSensor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PediatricSensor.entitlements; sourceTree = "<group>"; };
 		A4834B131FC73DCE004D58D1 /* PebbleLogGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleLogGraphViewController.swift; sourceTree = "<group>"; };
 		A4834B151FC75F85004D58D1 /* PebbleGraphLogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleGraphLogModel.swift; sourceTree = "<group>"; };
+		A495BBFE1FD0E82D00B05CAE /* PebbleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleTableViewCell.swift; sourceTree = "<group>"; };
+		A495BBFF1FD0E82D00B05CAE /* PebbleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PebbleTableViewCell.xib; sourceTree = "<group>"; };
+		A495BC041FD10CD600B05CAE /* PebbleDataTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleDataTypeTableViewCell.swift; sourceTree = "<group>"; };
+		A495BC051FD10CD600B05CAE /* PebbleDataTypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PebbleDataTypeTableViewCell.xib; sourceTree = "<group>"; };
 		A4AB210B1FB3F32C00D0129A /* ServerConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConnector.swift; sourceTree = "<group>"; };
 		A4BDB0EB1FBD332600FF4AEF /* PebbleLogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleLogModel.swift; sourceTree = "<group>"; };
 		A4BDB0ED1FBD346A00FF4AEF /* PebbleUtilitiesObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PebbleUtilitiesObjC.m; sourceTree = "<group>"; };
@@ -163,6 +171,10 @@
 			children = (
 				A45458EF1FB8C37C002937E0 /* TDTempoDiscInfoCell.xib */,
 				A45458EE1FB8C37C002937E0 /* TDTempoDiscInfoCell.swift */,
+				A495BBFE1FD0E82D00B05CAE /* PebbleTableViewCell.swift */,
+				A495BBFF1FD0E82D00B05CAE /* PebbleTableViewCell.xib */,
+				A495BC041FD10CD600B05CAE /* PebbleDataTypeTableViewCell.swift */,
+				A495BC051FD10CD600B05CAE /* PebbleDataTypeTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -393,6 +405,8 @@
 			files = (
 				A45458F11FB8C37C002937E0 /* TDTempoDiscInfoCell.xib in Resources */,
 				A4D9E0CF1FAC154900B7989D /* LaunchScreen.storyboard in Resources */,
+				A495BC011FD0E82D00B05CAE /* PebbleTableViewCell.xib in Resources */,
+				A495BC071FD10CD600B05CAE /* PebbleDataTypeTableViewCell.xib in Resources */,
 				A4D9E0CC1FAC154900B7989D /* Assets.xcassets in Resources */,
 				A4D9E0CA1FAC154900B7989D /* Main.storyboard in Resources */,
 			);
@@ -539,6 +553,7 @@
 				"${BUILT_PRODUCTS_DIR}/ANLoader/ANLoader.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/LGBluetooth/LGBluetooth.framework",
+				"${BUILT_PRODUCTS_DIR}/RATreeView/RATreeView.framework",
 				"${BUILT_PRODUCTS_DIR}/ScrollableGraphView/ScrollableGraphView.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyBluetooth/SwiftyBluetooth.framework",
 			);
@@ -547,6 +562,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ANLoader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGBluetooth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RATreeView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableGraphView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBluetooth.framework",
 			);
@@ -582,6 +598,8 @@
 				A4D9E0F31FAC184500B7989D /* BluetoothConnector.swift in Sources */,
 				A4834B161FC75F85004D58D1 /* PebbleGraphLogModel.swift in Sources */,
 				A4834B141FC73DCE004D58D1 /* PebbleLogGraphViewController.swift in Sources */,
+				A495BC001FD0E82D00B05CAE /* PebbleTableViewCell.swift in Sources */,
+				A495BC061FD10CD600B05CAE /* PebbleDataTypeTableViewCell.swift in Sources */,
 				A4D9E0C71FAC154900B7989D /* ViewController.swift in Sources */,
 				A4BDB0EC1FBD332600FF4AEF /* PebbleLogModel.swift in Sources */,
 				A4834B111FC4E63C004D58D1 /* RepeatingTimer.swift in Sources */,

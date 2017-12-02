@@ -18,6 +18,8 @@ class PebbleDataTypeTableViewCell: UITableViewCell {
     @IBOutlet var averageDataLabel: UILabel!
     @IBOutlet var lowestDataLabel: UILabel!
     
+    var gradient = CAGradientLayer()
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -30,16 +32,21 @@ class PebbleDataTypeTableViewCell: UITableViewCell {
     }
     
     func setBackgroundGradient(from topColor: UIColor, to bottomColor: UIColor){
-        let gradient = CAGradientLayer()
-        
-        gradient.frame = background.bounds
-        gradient.colors = [topColor.cgColor, bottomColor.cgColor]
+        if(!(background.layer.sublayers?.contains(gradient))!) {
+             background.layer.insertSublayer(gradient, at: 0)
+        }
+      //  let gradient = CAGradientLayer()
+        let newGradient = CAGradientLayer()
+        newGradient.frame = background.bounds
+        newGradient.colors = [topColor.cgColor, bottomColor.cgColor]
     
 //        gradient.transform = CATransform3DMakeRotation(CGFloat.pi / 2, 0, 0, 1)
-        gradient.startPoint = CGPoint.init(x: 0.5, y: 0.5)
-        gradient.endPoint = CGPoint.init(x: 1.0, y: 0.5)
+        newGradient.startPoint = CGPoint.init(x: 0.5, y: 0.5)
+        newGradient.endPoint = CGPoint.init(x: 1.0, y: 0.5)
         
-        background.layer.insertSublayer(gradient, at: 0)
+        background.layer.replaceSublayer(gradient, with: newGradient)
+        gradient = newGradient
+     // background.layer.insertSublayer(gradient, at: 0)
     }
     
     func fillWithDataType(_ type: TDTempoDiscInfoViewController.DataType, usingDisc disc: TDTempoDisc?) {

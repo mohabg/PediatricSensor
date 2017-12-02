@@ -22,9 +22,9 @@ class ServerConnector: NSObject {
         }
         
         let parameters = ["name" : name! as Any] as Parameters
-        let url = "http://localhost:3000/lastLogByName"
-        
-        Alamofire.request(url, method: .post, parameters: parameters).responseJSON { (response) in
+       // let url = "http://localhost:3000/lastLogByName"
+        let url = ""
+        Alamofire.request(url, method: .get, parameters: parameters).responseJSON { (response) in
             print("Request: \(String(describing: response.request))")   // original url request
             print("Response: \(String(describing: response.response))") // http url response
             print("Result: \(response.result)")

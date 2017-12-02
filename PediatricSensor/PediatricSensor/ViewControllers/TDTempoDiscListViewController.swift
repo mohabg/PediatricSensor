@@ -29,6 +29,8 @@ class TDTempoDiscListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.navigationBar.titleTextAttributes = [ NSAttributedStringKey.font: UIFont(name: "GillSans-Light", size: 25)! ]
+        
         registerForNotifications()
         
         lookForDevices()
@@ -104,22 +106,19 @@ class TDTempoDiscListViewController: UIViewController {
         case nil:
             self.expandSectionButtonClicked[section] = true
             self.tableView.insertRows(at: indexPaths, with: .fade)
-            sender.setTitle("Collapse", for: .normal)
         case true?:
             self.expandSectionButtonClicked[section] = !self.expandSectionButtonClicked[section]!
 
             self.tableView.deleteRows(at: indexPaths, with: .fade)
-            sender.setTitle("Expand", for: .normal)
 
         case false?:
             self.expandSectionButtonClicked[section] = !self.expandSectionButtonClicked[section]!
 
             self.tableView.insertRows(at: indexPaths, with: .fade)
-            sender.setTitle("Collapse", for: .normal)
         }
         
-        self.tableView.beginUpdates()
-        self.tableView.endUpdates()
+    //    self.tableView.beginUpdates()
+    //    self.tableView.endUpdates()
         self.tableView.reloadData()
     }
     
@@ -133,18 +132,6 @@ class TDTempoDiscListViewController: UIViewController {
         let alertController = UIAlertController(title: "Coming Soon", message: nil, preferredStyle: UIAlertControllerStyle.alert)
         alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.cancel, handler: nil))
         present(alertController, animated: true, completion: nil)
-    }
-    
-    func setBackgroundGradient(from topColor: UIColor, to bottomColor: UIColor){
-        let gradient = CAGradientLayer()
-        
-        gradient.frame = self.view.frame
-        gradient.colors = [topColor.cgColor, bottomColor.cgColor]
-        
-        gradient.startPoint = CGPoint.init(x: 0.5, y: 0.5)
-        gradient.endPoint = CGPoint.init(x: 1.0, y: 0.5)
-        
-        self.view.layer.insertSublayer(gradient, at: 0)
     }
 }
 

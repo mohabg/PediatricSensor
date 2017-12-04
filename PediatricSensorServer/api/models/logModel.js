@@ -2,7 +2,6 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-
 var LogSchema = new Schema({
   name: {
   	type: String,
@@ -77,9 +76,9 @@ var LogSchema = new Schema({
   	required: '24 hour lowest dew point is required'
   },
   date: {
-  	type: Date,
-  	default: Date.now
-  }
+  		type: Date,
+  		default: Date.now
+  	}
 });
 
 module.exports = mongoose.model('Logs', LogSchema);
